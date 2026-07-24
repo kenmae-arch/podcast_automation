@@ -37,6 +37,7 @@ jobs:
           PODCAST_TITLE: ${{ vars.PODCAST_TITLE }}
           PODCAST_DESCRIPTION: ${{ vars.PODCAST_DESCRIPTION }}
           PODCAST_AUTHOR: ${{ vars.PODCAST_AUTHOR }}
+          PODCAST_CATEGORY: ${{ vars.PODCAST_CATEGORY || 'Sports' }}
           PODCAST_EMAIL: ${{ vars.PODCAST_EMAIL }}
         run: python main.py
 
