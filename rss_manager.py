@@ -46,6 +46,9 @@ class RSSManager:
         fg.link(href=f"{self.base_url}/feed.xml", rel="self")
         fg.language(config.PODCAST_LANGUAGE)
         fg.author({"name": config.PODCAST_AUTHOR, "email": config.PODCAST_EMAIL})
+        cover_url = f"{self.base_url}/cover.jpg"
+        fg.image(url=cover_url, title=config.PODCAST_TITLE, link=self.base_url)
+        fg.podcast.itunes_image(cover_url)
         fg.podcast.itunes_author(config.PODCAST_AUTHOR)
         fg.podcast.itunes_category(config.PODCAST_CATEGORY)
         fg.podcast.itunes_explicit("no")
