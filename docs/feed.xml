@@ -8,20 +8,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 24 Jul 2026 16:31:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 16:59:32 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
       <itunes:name>Antlers Daily Podcast</itunes:name>
-      <itunes:email>podcast@example.com</itunes:email>
+      <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
     <item>
       <title>#1 大岩剛さんが日本代表監督に!開幕へ向かう鹿島の今(2026年7月25日)</title>
       <description>鹿島アントラーズの最新情報をお届けするデイリーポッドキャスト、記念すべき第1回。トピック: 大岩剛氏が森保監督の後任として日本代表監督に就任決定/都内でキックオフパーティー開催、鬼木監督が連覇とACLE制覇を宣言/荒木遼太郎がシント=トロイデンへ完全移籍/安西幸輝・樋口雄太が負傷離脱/ユースがFC東京U-18に快勝/福岡戦チケット情報ほか。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-25.mp3" length="3721507" type="audio/mpeg"/>
-      <pubDate>Fri, 24 Jul 2026 16:31:11 +0000</pubDate>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-25.mp3" length="3606986" type="audio/mpeg"/>
+      <pubDate>Fri, 24 Jul 2026 16:59:32 +0000</pubDate>
     </item>
   </channel>
 </rss>

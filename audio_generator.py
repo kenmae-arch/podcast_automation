@@ -2,8 +2,10 @@
 
 長文はチャンク分割して個別に音声化し、pydubで結合する。
 モデルは必ず s2.1-pro-free(完全無料・フェアユース)を指定する。
+TTSが読み間違える固有名詞は pronunciation_dict.json の読み仮名に置換してから送信する。
 """
 import io
+import json
 import logging
 import re
 from abc import ABC, abstractmethod
@@ -15,6 +17,18 @@ import config
 from utils import RetryableError, retry_with_backoff
 
 logger = logging.getLogger(__name__)
+
+PRONUNCIATION_DICT_PATH = config.BASE_DIR / "pronunciation_dict.json"
+
+
+def apply_pronunciation_dict(text: str) -> str:
+    """読み間違えやすい語を読み仮名に置換する(長い語から優先して適用)。"""
+    if not PRONUNCIATION_DICT_PATH.exists():
+        return text
+    mapping = json.loads(PRONUNCIATION_DICT_PATH.read_text(encoding="utf-8"))
+    for word in sorted(mapping, key=len, reverse=True):
+        text = text.replace(word, mapping[word])
+    return text
 
 
 class AudioGenerator(ABC):
@@ -31,6 +45,7 @@ class FishAudioGenerator(AudioGenerator):
             raise ValueError("FISH_AUDIO_API_KEY が設定されていません")
 
     def generate(self, text: str, output_path: Path) -> Path:
+        text = apply_pronunciation_dict(text)
         chunks = self._split_text(text, config.TTS_CHUNK_SIZE)
         logger.info("テキストを%dチャンクに分割して音声化します", len(chunks))
         audio_parts = [self._synthesize_chunk(chunk) for chunk in chunks]
