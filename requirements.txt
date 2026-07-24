@@ -1,0 +1,6 @@
+requests>=2.31.0
+feedparser>=6.0.11
+feedgen>=1.0.0
+google-generativeai>=0.8.0
+pydub>=0.25.1
+python-dotenv>=1.0.1
