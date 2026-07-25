@@ -7,7 +7,7 @@
 import logging
 import shutil
 import sys
-from datetime import date
+from datetime import datetime, timedelta, timezone
 
 import config
 from audio_generator import create_audio_generator
@@ -16,6 +16,23 @@ from script_generator import create_script_generator
 from topic_fetcher import RSSTopicFetcher
 
 logger = logging.getLogger(__name__)
+
+JST = timezone(timedelta(hours=9))
+
+
+def _unique_episode_path() -> "config.Path":
+    """JST日付ベースで衝突しない音声ファイルパスを返す。
+
+    GitHub Actionsランナーは時刻がUTCのため、JST基準で日付を決める。
+    同一JST日に複数回生成された場合は連番を付けて上書きを防ぐ。
+    """
+    jst_today = datetime.now(JST).strftime("%Y-%m-%d")
+    path = config.AUDIO_DIR / f"episode_{jst_today}.mp3"
+    n = 2
+    while path.exists():
+        path = config.AUDIO_DIR / f"episode_{jst_today}_{n}.mp3"
+        n += 1
+    return path
 
 
 def main() -> int:
@@ -35,7 +52,7 @@ def main() -> int:
 
         # 3. 音声生成
         logger.info("=== 3/4 音声生成 (Fish Audio: %s) ===", config.FISH_AUDIO_MODEL)
-        audio_path = config.AUDIO_DIR / f"episode_{date.today().isoformat()}.mp3"
+        audio_path = _unique_episode_path()
         create_audio_generator().generate(episode.script, audio_path)
 
         # 4. RSSフィード更新
@@ -45,7 +62,8 @@ def main() -> int:
         # manualモード: 使用済み台本をアーカイブして二重配信を防ぐ
         if is_manual and config.PENDING_SCRIPT_PATH.exists():
             config.PUBLISHED_SCRIPTS_DIR.mkdir(parents=True, exist_ok=True)
-            archived = config.PUBLISHED_SCRIPTS_DIR / f"{date.today().isoformat()}.json"
+            # 音声ファイルと同じ名前でアーカイブ(1日複数回でも衝突しない)
+            archived = config.PUBLISHED_SCRIPTS_DIR / f"{audio_path.stem}.json"
             shutil.move(config.PENDING_SCRIPT_PATH, archived)
             logger.info("台本をアーカイブしました: %s", archived)
 
