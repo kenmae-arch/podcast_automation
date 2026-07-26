@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Jul 2026 17:15:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 15:12:00 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,13 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#3 佐野海舟にリバプール急接近!渋谷でネクストテン開催(2026年7月27日)</title>
+      <description>鹿島アントラーズの最新情報をお届けするデイリーポッドキャスト第3回。トピック: 元鹿島・佐野海舟(マインツ)の獲得レースでリバプールが先行し代理人と個人条件を交渉、英メディアは個人合意に近いと報道/マインツは移籍金6000万ユーロ(約111億円)以下を拒否、アーセナル・ドルトムント・トッテナムも接触との報/2026-27開幕記念イベント『ネクストテン』が渋谷サクラステージで今週開催、3D没入映像・新ユニフォーム特別展示・高さ2.2mのシャーレのオブジェが登場。開幕は8月7日、国立での横浜F・マリノス戦。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-27.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-27.mp3" length="3277217" type="audio/mpeg"/>
+      <pubDate>Sun, 26 Jul 2026 15:12:00 +0000</pubDate>
+    </item>
     <item>
       <title>#2 夏の移籍市場が活発!マテウス獲得・広瀬復帰、新主将は柴崎岳(2026年7月26日)</title>
       <description>鹿島アントラーズの最新情報をお届けするデイリーポッドキャスト第2回。トピック: 元横浜FMのヤン・マテウスを完全移籍で獲得し荒木退団の穴を補強/DF濃野公人が海外移籍を前提にチーム離脱/広瀬陸斗がヴィッセル神戸から約2年半ぶりに鹿島復帰/新キャプテンは柴崎岳が続投、副将にレオ・セアラら4人、選手会長は早川友基/元鹿島・佐野海舟(マインツ)の市場価値が約90億円突破との報道ほか。開幕戦は8月7日、国立での横浜F・マリノス戦。</description>
