@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Mon, 27 Jul 2026 15:15:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 03:42:23 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,13 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#5 【栄光の軌跡①】ジーコ伝説のハットトリック、1993年サントリーシリーズ制覇(2026年7月29日)</title>
+      <description>本日は新ニュースが少ないため、新企画「栄光の軌跡」第1回をお届け。鹿島の記念すべきクラブ初タイトル、1993年Jリーグ1stステージ(サントリーシリーズ)制覇を振り返ります。開幕戦・対名古屋でのジーコによるJリーグ第1号ハットトリック(5対0)、常勝軍団の礎、そして8月7日の開幕・横浜FM戦への展望まで。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-29.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-29.mp3" length="2951208" type="audio/mpeg"/>
+      <pubDate>Wed, 29 Jul 2026 03:42:23 +0000</pubDate>
+    </item>
     <item>
       <title>#4 上田綺世にエバートン猛アタック!フェイエは拒否、続く海外組の争奪戦(2026年7月28日)</title>
       <description>鹿島アントラーズの最新情報をお届けするデイリーポッドキャスト第4回。トピック: 元鹿島・上田綺世(フェイエノールト)にプレミアリーグのエバートンが約43億円の獲得オファーを提示するもフェイエは拒否、移籍金は約65億円を要求との報道/ファン・ブロンクホルスト監督は残留を希望、スペインのレアル・マドリードの関心報道も/上田の契約は2028年夏まで/元鹿島・佐野海舟(マインツ)もリバプールを中心に争奪戦が継続中。新シーズン開幕は8月7日、国立での横浜F・マリノス戦。</description>
