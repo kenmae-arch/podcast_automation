@@ -22,7 +22,13 @@ class RSSManager:
     def __init__(self, base_url: str | None = None):
         self.base_url = (base_url or config.SITE_BASE_URL).rstrip("/")
 
-    def add_episode(self, title: str, description: str, audio_path: Path) -> None:
+    def add_episode(
+        self,
+        title: str,
+        description: str,
+        audio_path: Path,
+        image_path: Path | None = None,
+    ) -> None:
         """エピソードを登録してフィードを再生成する。"""
         episodes = self._load_episodes()
         episodes.append(
@@ -31,6 +37,7 @@ class RSSManager:
                 "description": description,
                 "audio_file": audio_path.name,
                 "size_bytes": audio_path.stat().st_size,
+                "image_file": image_path.name if image_path else None,
                 "published": datetime.now(timezone.utc).isoformat(),
             }
         )
@@ -62,6 +69,8 @@ class RSSManager:
             fe.title(ep["title"])
             fe.description(ep["description"])
             fe.enclosure(audio_url, str(ep["size_bytes"]), "audio/mpeg")
+            if ep.get("image_file"):
+                fe.podcast.itunes_image(f"{self.base_url}/images/{ep['image_file']}")
             fe.published(datetime.fromisoformat(ep["published"]))
 
         config.FEED_PATH.parent.mkdir(parents=True, exist_ok=True)

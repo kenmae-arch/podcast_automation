@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Jul 2026 05:26:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 05:39:15 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -28,6 +28,7 @@
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-29_2.mp3</guid>
       <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-29_2.mp3" length="3047339" type="audio/mpeg"/>
       <pubDate>Wed, 29 Jul 2026 05:26:31 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-29_2.jpg"/>
     </item>
     <item>
       <title>#4 上田綺世にエバートン猛アタック!フェイエは拒否、続く海外組の争奪戦(2026年7月28日)</title>
@@ -35,6 +36,7 @@
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-28.mp3</guid>
       <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-28.mp3" length="2952462" type="audio/mpeg"/>
       <pubDate>Mon, 27 Jul 2026 15:15:15 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-28.jpg"/>
     </item>
     <item>
       <title>#3 佐野海舟にリバプール急接近!渋谷でネクストテン開催(2026年7月27日)</title>
@@ -42,6 +44,7 @@
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-27.mp3</guid>
       <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-27.mp3" length="3277217" type="audio/mpeg"/>
       <pubDate>Sun, 26 Jul 2026 15:12:00 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-27.jpg"/>
     </item>
     <item>
       <title>#2 夏の移籍市場が活発!マテウス獲得・広瀬復帰、新主将は柴崎岳(2026年7月26日)</title>
@@ -49,6 +52,7 @@
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-26.mp3</guid>
       <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-26.mp3" length="3321520" type="audio/mpeg"/>
       <pubDate>Sat, 25 Jul 2026 15:10:40 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-26.jpg"/>
     </item>
     <item>
       <title>#1 大岩剛さんが日本代表監督に!開幕へ向かう鹿島の今(2026年7月25日)</title>
@@ -56,6 +60,7 @@
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-25.mp3</guid>
       <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-25.mp3" length="3606986" type="audio/mpeg"/>
       <pubDate>Fri, 24 Jul 2026 16:59:32 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-25.jpg"/>
     </item>
   </channel>
 </rss>

@@ -10,6 +10,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 import config
+import episode_art
 from audio_generator import create_audio_generator
 from rss_manager import RSSManager
 from script_generator import create_script_generator
@@ -20,13 +21,13 @@ logger = logging.getLogger(__name__)
 JST = timezone(timedelta(hours=9))
 
 
-def _unique_episode_path() -> "config.Path":
+def _unique_episode_path(jst_now: datetime) -> "config.Path":
     """JST日付ベースで衝突しない音声ファイルパスを返す。
 
     GitHub Actionsランナーは時刻がUTCのため、JST基準で日付を決める。
     同一JST日に複数回生成された場合は連番を付けて上書きを防ぐ。
     """
-    jst_today = datetime.now(JST).strftime("%Y-%m-%d")
+    jst_today = jst_now.strftime("%Y-%m-%d")
     path = config.AUDIO_DIR / f"episode_{jst_today}.mp3"
     n = 2
     while path.exists():
@@ -52,12 +53,21 @@ def main() -> int:
 
         # 3. 音声生成
         logger.info("=== 3/4 音声生成 (Fish Audio: %s) ===", config.FISH_AUDIO_MODEL)
-        audio_path = _unique_episode_path()
+        jst_now = datetime.now(JST)
+        audio_path = _unique_episode_path(jst_now)
         create_audio_generator().generate(episode.script, audio_path)
+
+        # 3.5 エピソード別ジャケット生成(失敗しても配信は継続)
+        image_path = config.DOCS_DIR / "images" / f"{audio_path.stem}.jpg"
+        image_path = episode_art.generate_card(
+            episode.title, jst_now.strftime("%Y.%m.%d"), image_path
+        )
 
         # 4. RSSフィード更新
         logger.info("=== 4/4 RSSフィード更新 ===")
-        RSSManager().add_episode(episode.title, episode.description, audio_path)
+        RSSManager().add_episode(
+            episode.title, episode.description, audio_path, image_path
+        )
 
         # manualモード: 使用済み台本をアーカイブして二重配信を防ぐ
         if is_manual and config.PENDING_SCRIPT_PATH.exists():
