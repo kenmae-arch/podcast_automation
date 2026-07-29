@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 29 Jul 2026 05:39:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 15:13:27 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#6 【栄光の軌跡②】1996年、鹿島が初の年間王者に(2026年7月30日)</title>
+      <description>鹿島アントラーズ最新情報をお届けするデイリーポッドキャスト第6回。直近24時間に大きな新規ニュースがなかったため、常設コーナー「栄光の軌跡」の第2回を主役にお届け。テーマは1996年、鹿島がクラブ史上初めて手にした「年間王者」の称号。この年だけ採用された1シーズン制(全30節・チャンピオンシップなし)、開幕8連勝で独走した横浜フリューゲルスを追い上げての大逆転、就任1年目のジョアン・カルロス監督、レオナルド・ジョルジーニョ・本田泰人ら主役たちを振り返ります。開幕は8月7日、国立での横浜F・マリノス戦(24年ぶり地上波ゴールデン生中継)。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-30.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-30.mp3" length="3496645" type="audio/mpeg"/>
+      <pubDate>Wed, 29 Jul 2026 15:13:27 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-30.jpg"/>
+    </item>
     <item>
       <title>#5 【栄光の軌跡①】ジーコ伝説のハットトリック、1993年サントリーシリーズ制覇(2026年7月29日)</title>
       <description>本日は新ニュースが少ないため、新企画「栄光の軌跡」第1回をお届け。鹿島の記念すべきクラブ初タイトル、1993年Jリーグ1stステージ(サントリーシリーズ)制覇を振り返ります。開幕戦・対名古屋でのジーコによるJリーグ第1号ハットトリック(5対0)、常勝軍団の礎、そして8月7日の開幕・横浜FM戦への展望まで。</description>
