@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Thu, 30 Jul 2026 18:49:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 15:14:12 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#8 【栄光の軌跡④】1997年、鹿島が初の天皇杯を掲げた元日(2026年8月1日)</title>
+      <description>鹿島アントラーズ デイリー第8回。直近24時間に大きな新規ニュースがないため、常設コーナー「栄光の軌跡」第4回を主役にお届け。テーマは1997年、クラブ史上初の天皇杯制覇。1998年元日・国立での第77回天皇杯決勝で横浜フリューゲルスを3対0で下し、増田忠俊・マジーニョ・柳沢敦が得点。1997年は1stステージ・ナビスコ・天皇杯の複数制覇で「史上最強」と称された黄金期。冒頭では元鹿島・上田綺世(フェイエノールト)へのエバートンのオファー拒否やレアル関心報道など、この夏の去就の噂も紹介。リーグ再開は8月7日、国立の横浜F・マリノス戦。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-01.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-01.mp3" length="3171055" type="audio/mpeg"/>
+      <pubDate>Fri, 31 Jul 2026 15:14:12 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-01.jpg"/>
+    </item>
     <item>
       <title>#7 濃野公人がMLS・DCユナイテッドへ完全移籍!古巣の恩師ヴァイラー監督のもとへ(2026年7月31日)</title>
       <description>鹿島アントラーズ最新情報をお届けするデイリーポッドキャスト第7回。トピック: DF濃野公人がアメリカMLSのDCユナイテッドへ完全移籍(3年契約+1年オプション)、率いるのは元鹿島のレネ・ヴァイラー監督、日本代表と将来の欧州挑戦を見据えた決断/24年のルーキーで9得点・新人ベストイレブン、25年の9年ぶり9度目J1制覇にも貢献/元鹿島・佐野海舟(マインツ)は7月30日の英報道で三笘薫所属ブライトンやセリエA移籍説が浮上(移籍金約111億円がネック)/常設コーナー栄光の軌跡③は1997年、クラブ初のカップタイトル・ナビスコカップ制覇。開幕は8月7日、国立の横浜F・マリノス戦。</description>
