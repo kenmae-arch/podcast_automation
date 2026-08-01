@@ -1,11 +1,13 @@
-# AIポッドキャスト完全自動化システム
+# 鹿島アントラーズ デイリー — AIポッドキャスト自動化システム
 
-台本作成(Claude Code) → 音声生成(Fish Audio) → RSS配信(GitHub Pages)を行うポッドキャストシステム。すべて無料で運用できます。
+鹿島アントラーズに関する最新ニュースを毎日調査し、日本語の音声で届けるポッドキャスト「鹿島アントラーズ デイリー」の制作・配信システムです。
+
+試合、選手、移籍、クラブの発表など直近の重要トピックを中心に、ニュースが少ない日はクラブの歴史を振り返る「栄光の軌跡」などの常設企画を交えて構成します。台本作成(AIエージェント) → 音声生成(Fish Audio) → RSS配信(GitHub Pages)までを一貫して行います。
 
 ## 運用フロー(manualモード・既定)
 
-1. Claude Codeに「今日のエピソードを作って」と依頼
-2. Claude Codeがニューストピックを調べて台本を書き、`scripts/pending.json` に保存して `python main.py` を実行
+1. AIエージェントに「今日の鹿島アントラーズのエピソードを作って」と依頼
+2. AIエージェントが鹿島アントラーズの最新情報を調べて台本を書き、`scripts/pending.json` に保存して `python main.py` を実行
 3. `main.py` が Fish Audio で音声化し、`docs/feed.xml` を更新、台本を `scripts/published/` にアーカイブ
 4. GitHubにpushすればGitHub Pages経由でSpotify等に配信される
 
@@ -24,7 +26,7 @@ rss_manager.py        # feedgenでポッドキャストRSS(docs/feed.xml)を生�
 config.py             # 設定の一元管理
 utils.py              # Exponential Backoffリトライ
 docs/                 # GitHub Pages公開ディレクトリ(音声+feed.xml)
-.github/workflows/daily_podcast.yml  # 毎朝6時(JST)に自動実行
+.github/workflows/daily_podcast.yml  # pending.jsonのpushまたは手動操作で実行
 ```
 
 各モジュールは抽象クラス(`TopicFetcher` / `ScriptGenerator` / `AudioGenerator`)ベースの疎結合設計で、別のLLMやTTSへの差し替えが容易です。
@@ -64,7 +66,7 @@ APIキーの取得先:
 
 | 変数 | 説明 |
 |---|---|
-| `NEWS_FEED_URLS` | ニュースソースのRSS URL(カンマ区切り) |
+| `NEWS_FEED_URLS` | 鹿島アントラーズ関連情報の収集に使うニュースソースのRSS URL(カンマ区切り) |
 | `MAX_TOPICS` | 1エピソードで扱うトピック数(既定: 5) |
 | `FISH_AUDIO_REFERENCE_ID` | Fish Audioボイスライブラリの音声ID |
 | `PODCAST_TITLE` ほか | 番組名・説明・作者などのRSSメタデータ |
