@@ -1,4 +1,4 @@
-name: Scheduled Auto Pending Generator (Aug 4-8)
+name: Scheduled Live News Podcast Generator (Aug 4-8)
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  auto_generate:
+  live_generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -22,51 +22,64 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: pip
 
-      - name: Process Daily Pending Script
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check date & run live podcast generation
+        env:
+          FISH_AUDIO_API_KEY: ${{ secrets.FISH_AUDIO_API_KEY }}
+          FISH_AUDIO_REFERENCE_ID: ${{ vars.FISH_AUDIO_REFERENCE_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER: gemini
+          SITE_BASE_URL: ${{ vars.SITE_BASE_URL }}
+          PODCAST_TITLE: ${{ vars.PODCAST_TITLE }}
+          PODCAST_DESCRIPTION: ${{ vars.PODCAST_DESCRIPTION }}
+          PODCAST_AUTHOR: ${{ vars.PODCAST_AUTHOR }}
+          PODCAST_EMAIL: ${{ vars.PODCAST_EMAIL }}
+          PODCAST_CATEGORY: ${{ vars.PODCAST_CATEGORY }}
+          NEWS_FEED_URLS: ${{ vars.NEWS_FEED_URLS }}
         run: |
           python -c '
-          import os, sys, json, shutil
+          import os, sys
           from datetime import datetime, timezone, timedelta
 
           jst = timezone(timedelta(hours=9))
           today_str = datetime.now(jst).strftime("%Y-%m-%d")
-          print(f"Current JST Date: {today_str}")
+          print(f"Executing Live Podcast Generator for JST Date: {today_str}")
 
-          scheduled_dir = "scripts/scheduled"
-          target_file = f"{scheduled_dir}/{today_str}.json"
-          pending_file = "scripts/pending.json"
-          workflow_file = ".github/workflows/daily_auto.yml"
+          if today_str > "2026-08-08":
+              print("After 2026-08-08 limit. Skipping generation.")
+              sys.exit(0)
 
-          if os.path.exists(target_file):
-              print(f"Deploying {target_file} to {pending_file}")
-              shutil.copy(target_file, pending_file)
-          else:
-              print(f"No scheduled file found for {today_str}")
+          # Run main.py using live Gemini LLM provider
+          res = os.system("python main.py")
+          if res != 0:
+              sys.exit(res)
 
           is_final_day = today_str >= "2026-08-08"
-
           with open(os.environ["GITHUB_ENV"], "a") as f:
               f.write(f"TODAY_STR={today_str}\n")
               f.write(f"IS_FINAL_DAY={str(is_final_day).lower()}\n")
           '
 
-      - name: Commit and Push Pending Script
+      - name: Commit and Push Generated Episode & Self-Cleanup
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          if [ -f "scripts/pending.json" ]; then
-            git add scripts/pending.json
-          fi
+
+          git add docs/ scripts/published/ || true
 
           if [ "$IS_FINAL_DAY" = "true" ]; then
-            echo "Final day reached (2026-08-08). Self-deleting auto workflow & scheduled dir..."
+            echo "Final day reached (2026-08-08). Removing live auto workflow file..."
             git rm -f .github/workflows/daily_auto.yml || true
-            git rm -rf scripts/scheduled || true
-            git commit -m "Auto: daily episode $TODAY_STR and self-cleanup 8/8 workflow"
+            git commit -m "Auto: daily live episode $TODAY_STR and self-cleanup 8/8 workflow"
           else
-            git commit -m "Auto: daily episode $TODAY_STR"
+            git commit -m "Auto: daily live episode $TODAY_STR"
           fi
 
           git push origin main
