@@ -1,0 +1,72 @@
+name: Scheduled Auto Pending Generator (Aug 4-8)
+
+on:
+  schedule:
+    - cron: '0 15 * * *' # 15:00 UTC = 00:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  auto_generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Process Daily Pending Script
+        run: |
+          python -c '
+          import os, sys, json, shutil
+          from datetime import datetime, timezone, timedelta
+
+          jst = timezone(timedelta(hours=9))
+          today_str = datetime.now(jst).strftime("%Y-%m-%d")
+          print(f"Current JST Date: {today_str}")
+
+          scheduled_dir = "scripts/scheduled"
+          target_file = f"{scheduled_dir}/{today_str}.json"
+          pending_file = "scripts/pending.json"
+          workflow_file = ".github/workflows/daily_auto.yml"
+
+          if os.path.exists(target_file):
+              print(f"Deploying {target_file} to {pending_file}")
+              shutil.copy(target_file, pending_file)
+          else:
+              print(f"No scheduled file found for {today_str}")
+
+          is_final_day = today_str >= "2026-08-08"
+
+          with open(os.environ["GITHUB_ENV"], "a") as f:
+              f.write(f"TODAY_STR={today_str}\n")
+              f.write(f"IS_FINAL_DAY={str(is_final_day).lower()}\n")
+          '
+
+      - name: Commit and Push Pending Script
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          if [ -f "scripts/pending.json" ]; then
+            git add scripts/pending.json
+          fi
+
+          if [ "$IS_FINAL_DAY" = "true" ]; then
+            echo "Final day reached (2026-08-08). Self-deleting auto workflow & scheduled dir..."
+            git rm -f .github/workflows/daily_auto.yml || true
+            git rm -rf scripts/scheduled || true
+            git commit -m "Auto: daily episode $TODAY_STR and self-cleanup 8/8 workflow"
+          else
+            git commit -m "Auto: daily episode $TODAY_STR"
+          fi
+
+          git push origin main
