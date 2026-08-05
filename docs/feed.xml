@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 02 Aug 2026 15:06:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 16:02:36 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,27 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#13 明日いよいよ開幕！マリノス戦前日会見＆【栄光の軌跡⑨】2001年J1連覇達成(2026年8月6日)</title>
+      <description>鹿島アントラーズ デイリー第13回。明日8月7日19時25分キックオフの横浜F・マリノス戦に向けた前日記者会見の模様と最終決定事項をお届け。常設コーナー「栄光の軌跡」第9回は、2001年J1リーグ年間制覇。磐田との激闘を制しリーグ連覇を果たしたシーズンを振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-06.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-06.mp3" length="1700257" type="audio/mpeg"/>
+      <pubDate>Wed, 05 Aug 2026 16:02:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>#12 開幕まであと2日！予想スタメン＆【栄光の軌跡⑧】2000年天皇杯制覇・前人未到の三冠達成(2026年8月5日)</title>
+      <description>鹿島アントラーズ デイリー第12回。8月7日マリノス戦まであと2日。予想スタメンと注目マッチアップを解説。常設コーナー「栄光の軌跡」第8回は、2000年天皇杯決勝。清水エスパルスとの激闘を延長Vゴールで制し、日本サッカー史上初の国内三冠（リーグ・ナビスコ・天皇杯）を達成した伝説の一戦を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-05.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-05.mp3" length="2087287" type="audio/mpeg"/>
+      <pubDate>Wed, 05 Aug 2026 16:01:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>#11 8月7日開幕戦マリノス戦への仕上がり＆【栄光の軌跡⑦】2000年J1リーグ年間王者・国内初三冠への道(2026年8月4日)</title>
+      <description>鹿島アントラーズ デイリー第11回。8月7日のMUFGスタジアムでの横浜F・マリノスとのリーグ開幕戦まであと3日。チームの調整状況と決意をお伝えします。常設コーナー「栄光の軌跡」第7回は、2000年J1リーグ年間王者。ナビスコカップ制覇に続き、サントリーステージ王者として迎えたチャンピオンシップでの激闘と、史上初の国内主要タイトル三冠達成へ向けた足跡を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-04.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-04.mp3" length="2758947" type="audio/mpeg"/>
+      <pubDate>Wed, 05 Aug 2026 16:01:02 +0000</pubDate>
+    </item>
     <item>
       <title>#10 鬼木監督らが語る開幕への思い＆【栄光の軌跡⑥】2000年ナビスコカップ制覇(2026年8月3日)</title>
       <description>鹿島アントラーズ デイリー第10回。8月2日にクラブ公式から発表された2つのメディア出演情報を紹介。テレビ東京「FOOT×BRAIN+ONE」では柴崎岳・田川亨介・鬼木達監督、NHK BS「Jリーグタイム」開幕直前スペシャルでは鬼木監督のインタビューが放送されました。常設コーナー「栄光の軌跡」第6回は、2000年ナビスコカップ決勝。国立で川崎フロンターレを2対0で下し、中田浩二の左足ボレーとビスマルクのPKで3年ぶり2度目の大会制覇を果たした一戦を振り返ります。8月7日19時25分、MUFGスタジアムでの横浜F・マリノスとのリーグ開幕戦まであと4日です。</description>
