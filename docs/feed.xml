@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 05 Aug 2026 16:02:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 15:27:49 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#14 いよいよ開幕戦！マリノス戦キックオフ＆【栄光の軌跡⑩】2002年ナビスコカップ制覇(2026年8月7日)</title>
+      <description>鹿島アントラーズ デイリー第14回。ついに開幕当日。今夜7時25分、国立競技場(MUFGスタジアム)で2026/27シーズンJ1がキックオフし、鹿島はオープニングマッチで横浜F・マリノスと対戦します。約2500発の花火やスペシャルアンバサダー・トラビスジャパンのハーフタイムライブなど特別な開幕セレモニーの情報、そしてJリーグ連覇とACLE制覇を掲げる鬼木達監督の決意をお伝えします。常設コーナー「栄光の軌跡」第10回は2002年ナビスコカップ決勝。国立での浦和レッズ戦を小笠原満男の決勝弾で1対0と制し、3年ぶりの制覇を果たした一戦を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-07.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-07.mp3" length="3023515" type="audio/mpeg"/>
+      <pubDate>Thu, 06 Aug 2026 15:27:49 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-07.jpg"/>
+    </item>
     <item>
       <title>#13 明日いよいよ開幕！マリノス戦前日会見＆【栄光の軌跡⑨】2001年J1連覇達成(2026年8月6日)</title>
       <description>鹿島アントラーズ デイリー第13回。明日8月7日19時25分キックオフの横浜F・マリノス戦に向けた前日記者会見の模様と最終決定事項をお届け。常設コーナー「栄光の軌跡」第9回は、2001年J1リーグ年間制覇。磐田との激闘を制しリーグ連覇を果たしたシーズンを振り返ります。</description>
