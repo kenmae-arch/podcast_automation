@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Fri, 07 Aug 2026 15:26:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 15:15:34 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#16 開幕戦の裏側に迫る！鬼木監督のメンタル哲学＆18歳・吉田湊海の開幕スタメン抜擢＆【栄光の軌跡⑫】2008年J1連覇(2026年8月9日)</title>
+      <description>鹿島アントラーズ デイリー第16回。劇的な開幕戦逆転勝利から一夜明け、その裏側に迫ります。鬼木達監督が語る勝負強さの源泉となる厳しく長い練習と『鹿島のメンタルの強さ』、内田篤人に次ぐクラブ史上2位の年少記録で開幕スタメンを飾った18歳・吉田湊海の悔しさと柴崎岳の声かけ、決勝弾を演出したベテランの存在感を紹介。次節は8月15日ホーム名古屋戦。常設コーナー栄光の軌跡第12回は、最終節で札幌を1-0で下し2度目の連覇を達成した2008年J1制覇を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-09.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-09.mp3" length="4085177" type="audio/mpeg"/>
+      <pubDate>Sat, 08 Aug 2026 15:15:34 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-09.jpg"/>
+    </item>
     <item>
       <title>#15 開幕戦劇的大逆転！鹿島4-3横浜FM＆【栄光の軌跡⑪】2007年J1奇跡の最終節逆転優勝(2026年8月8日)</title>
       <description>鹿島アントラーズ デイリー第15回。2026-27シーズンJ1開幕戦、鹿島は7日夜に国立競技場(MUFGスタジアム)で横浜F・マリノスと対戦。1-3のビハインドを跳ね返し、レオ・セアラの2ゴールと途中出場チャヴリッチの土壇場2発でアディショナルタイムに4-3と大逆転、王者らしい勝負強さで白星発進しました。横浜の16歳・三井寺眞によるJ史上2番目の年少ゴールにも触れます。常設コーナー「栄光の軌跡」第11回は2007年J1制覇。オリヴェイラ監督1年目、終盤9連勝から最終節で首位浦和を逆転した奇跡の戴冠を振り返ります。</description>
