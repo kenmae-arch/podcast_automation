@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 08 Aug 2026 15:15:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 15:16:41 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#17 ホーム開幕・名古屋戦プレビュー＆ぴあスペシャルマッチ＆【栄光の軌跡⑬】2009年J1史上初の3連覇(2026年8月10日)</title>
+      <description>鹿島アントラーズ デイリー第17回。開幕戦の余韻が残るなか、次戦のホーム開幕・名古屋グランパス戦(8月15日土曜18時・メルカリスタジアム、J1第2節)をプレビュー。クラブパートナーぴあの協力による『ぴあスペシャルマッチ〜NEXT TENも共に〜』、先着2万名へのチケット型オリジナルステッカー配布もご紹介します。常設コーナー栄光の軌跡は第13回、2009年J1制覇。最終節・浦和戦で内田篤人のクロスから興梠慎三が決勝点、1対0で勝ち切りJリーグ史上初の3連覇(通算7回目の優勝)を達成した、常勝軍団の底力を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-10.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-10.mp3" length="3694340" type="audio/mpeg"/>
+      <pubDate>Sun, 09 Aug 2026 15:16:41 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-10.jpg"/>
+    </item>
     <item>
       <title>#16 開幕戦の裏側に迫る！鬼木監督のメンタル哲学＆18歳・吉田湊海の開幕スタメン抜擢＆【栄光の軌跡⑫】2008年J1連覇(2026年8月9日)</title>
       <description>鹿島アントラーズ デイリー第16回。劇的な開幕戦逆転勝利から一夜明け、その裏側に迫ります。鬼木達監督が語る勝負強さの源泉となる厳しく長い練習と『鹿島のメンタルの強さ』、内田篤人に次ぐクラブ史上2位の年少記録で開幕スタメンを飾った18歳・吉田湊海の悔しさと柴崎岳の声かけ、決勝弾を演出したベテランの存在感を紹介。次節は8月15日ホーム名古屋戦。常設コーナー栄光の軌跡第12回は、最終節で札幌を1-0で下し2度目の連覇を達成した2008年J1制覇を振り返ります。</description>
