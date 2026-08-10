@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 09 Aug 2026 15:16:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 15:37:50 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#18 【栄光の軌跡⑭】2010年天皇杯・元日の国立で野沢拓也の決勝弾、クラブ4度目の戴冠(2026年8月11日)</title>
+      <description>鹿島アントラーズ デイリー第18回。5日後の8月15日ホーム開幕・名古屋戦(メルカリスタジアム)を前に、新規ニュースの乏しいこの日は常設コーナー栄光の軌跡を主役に。第14回は2011年元日、国立競技場での第90回天皇杯決勝。オズワルド・オリヴェイラ監督のもと清水エスパルスと激突し、後半77分の野沢拓也の芸術的な直接フリーキックが決勝点となり2対1で勝利。リーグ4連覇を逃したシーズンを元日のタイトルで締めくくった、クラブ通算4回目の天皇杯制覇を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-11.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-11.mp3" length="3170637" type="audio/mpeg"/>
+      <pubDate>Mon, 10 Aug 2026 15:37:50 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-11.jpg"/>
+    </item>
     <item>
       <title>#17 ホーム開幕・名古屋戦プレビュー＆ぴあスペシャルマッチ＆【栄光の軌跡⑬】2009年J1史上初の3連覇(2026年8月10日)</title>
       <description>鹿島アントラーズ デイリー第17回。開幕戦の余韻が残るなか、次戦のホーム開幕・名古屋グランパス戦(8月15日土曜18時・メルカリスタジアム、J1第2節)をプレビュー。クラブパートナーぴあの協力による『ぴあスペシャルマッチ〜NEXT TENも共に〜』、先着2万名へのチケット型オリジナルステッカー配布もご紹介します。常設コーナー栄光の軌跡は第13回、2009年J1制覇。最終節・浦和戦で内田篤人のクロスから興梠慎三が決勝点、1対0で勝ち切りJリーグ史上初の3連覇(通算7回目の優勝)を達成した、常勝軍団の底力を振り返ります。</description>
