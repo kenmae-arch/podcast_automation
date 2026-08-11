@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Mon, 10 Aug 2026 15:37:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 15:30:54 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#19 柴崎岳の10番、開幕戦の至高スルーパスがSNSで話題＆【栄光の軌跡⑮】2011年ナビスコカップ制覇(2026年8月12日)</title>
+      <description>鹿島アントラーズ デイリー第19回。開幕戦・横浜FM戦の4-3大逆転を演出した背番号10・柴崎岳の決勝アシスト=至高のスルーパスが、SNSで『あのタイミングで出すのか』『セクシーすぎる』と話題に。ラインを上げる相手最終ラインとチャヴリッチの動きを見極めたベテランの視野と技術を振り返ります。次戦は8月15日土曜18時、ホーム開幕・名古屋戦(メルカリスタジアム、ぴあスペシャルマッチ開催)。常設コーナー栄光の軌跡は第15回、2011年ヤマザキナビスコカップ制覇。国立での浦和との決勝、延長で21歳・大迫勇也が決めMVPに輝いたクラブ4度目の戴冠を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-12.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-12.mp3" length="3204910" type="audio/mpeg"/>
+      <pubDate>Tue, 11 Aug 2026 15:30:54 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-12.jpg"/>
+    </item>
     <item>
       <title>#18 【栄光の軌跡⑭】2010年天皇杯・元日の国立で野沢拓也の決勝弾、クラブ4度目の戴冠(2026年8月11日)</title>
       <description>鹿島アントラーズ デイリー第18回。5日後の8月15日ホーム開幕・名古屋戦(メルカリスタジアム)を前に、新規ニュースの乏しいこの日は常設コーナー栄光の軌跡を主役に。第14回は2011年元日、国立競技場での第90回天皇杯決勝。オズワルド・オリヴェイラ監督のもと清水エスパルスと激突し、後半77分の野沢拓也の芸術的な直接フリーキックが決勝点となり2対1で勝利。リーグ4連覇を逃したシーズンを元日のタイトルで締めくくった、クラブ通算4回目の天皇杯制覇を振り返ります。</description>
