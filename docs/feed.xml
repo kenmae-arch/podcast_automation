@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Tue, 11 Aug 2026 15:30:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 15:36:38 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#20 名古屋戦まであと2日＆【栄光の軌跡⑯】2012年ナビスコカップ連覇、20歳・柴崎岳の延長弾2発(2026年8月13日)</title>
+      <description>鹿島アントラーズ デイリー第20回。ホーム開幕・名古屋グランパス戦(8月15日土曜18時・メルカリスタジアム)まであと2日、開幕の横浜FM戦に続き2戦連続の超満員が見込まれるなか、新規ニュースの乏しいこの日は常設コーナー栄光の軌跡を主役に。第16回は2012年11月3日、国立競技場での第20回ナビスコカップ決勝。清水エスパルスと延長戦にもつれ、当時20歳の柴崎岳が延長で2ゴールを叩き込み2対1で勝利。前年に続くナビスコ連覇(2年連続・通算5回目)を、ジェフ千葉以来の大会連覇として達成した若き常勝軍団の物語を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-13.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-13.mp3" length="3260498" type="audio/mpeg"/>
+      <pubDate>Wed, 12 Aug 2026 15:36:38 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-13.jpg"/>
+    </item>
     <item>
       <title>#19 柴崎岳の10番、開幕戦の至高スルーパスがSNSで話題＆【栄光の軌跡⑮】2011年ナビスコカップ制覇(2026年8月12日)</title>
       <description>鹿島アントラーズ デイリー第19回。開幕戦・横浜FM戦の4-3大逆転を演出した背番号10・柴崎岳の決勝アシスト=至高のスルーパスが、SNSで『あのタイミングで出すのか』『セクシーすぎる』と話題に。ラインを上げる相手最終ラインとチャヴリッチの動きを見極めたベテランの視野と技術を振り返ります。次戦は8月15日土曜18時、ホーム開幕・名古屋戦(メルカリスタジアム、ぴあスペシャルマッチ開催)。常設コーナー栄光の軌跡は第15回、2011年ヤマザキナビスコカップ制覇。国立での浦和との決勝、延長で21歳・大迫勇也が決めMVPに輝いたクラブ4度目の戴冠を振り返ります。</description>
