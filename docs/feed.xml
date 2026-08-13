@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 12 Aug 2026 15:36:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 16:05:33 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#21 いよいよ明日ホーム開幕・名古屋戦、鬼木監督『自分たちの力を出す』＆【栄光の軌跡⑰】2015年ナビスコカップ制覇(2026年8月14日)</title>
+      <description>鹿島アントラーズ デイリー第21回。いよいよ明日8月15日土曜18時、ホーム開幕戦のJ1第2節・名古屋グランパス戦がメルカリスタジアムで行われます。開幕戦・横浜FM戦の4対3大逆転で得た勢いをホームでも示し、開幕2連勝を狙います。チケットは実質完売で3万人超の大観衆が見込まれるなか、鬼木達監督が語った『相手よりも自分たちの力を出すこと』という姿勢を紹介。元鹿島の海外組として佐野海舟の移籍報道も一言添えます。常設コーナー栄光の軌跡は第17回、2015年ヤマザキナビスコカップ制覇。10月31日の埼玉スタジアム、ガンバ大阪を3対0で下し小笠原満男が2度目のMVPに輝いたリーグカップ通算6回目の戴冠を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-14.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-14.mp3" length="3216194" type="audio/mpeg"/>
+      <pubDate>Thu, 13 Aug 2026 16:05:33 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-14.jpg"/>
+    </item>
     <item>
       <title>#20 名古屋戦まであと2日＆【栄光の軌跡⑯】2012年ナビスコカップ連覇、20歳・柴崎岳の延長弾2発(2026年8月13日)</title>
       <description>鹿島アントラーズ デイリー第20回。ホーム開幕・名古屋グランパス戦(8月15日土曜18時・メルカリスタジアム)まであと2日、開幕の横浜FM戦に続き2戦連続の超満員が見込まれるなか、新規ニュースの乏しいこの日は常設コーナー栄光の軌跡を主役に。第16回は2012年11月3日、国立競技場での第20回ナビスコカップ決勝。清水エスパルスと延長戦にもつれ、当時20歳の柴崎岳が延長で2ゴールを叩き込み2対1で勝利。前年に続くナビスコ連覇(2年連続・通算5回目)を、ジェフ千葉以来の大会連覇として達成した若き常勝軍団の物語を振り返ります。</description>
