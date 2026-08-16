@@ -4,10 +4,12 @@
   台本はClaude Code等が事前に作成する(LLM API不要・無料)。
 - gemini/groqモード: トピック取得 → LLMで台本生成 → 音声化 → RSS更新。
 """
+import json
 import logging
 import shutil
 import sys
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 import config
 import episode_art
@@ -21,19 +23,42 @@ logger = logging.getLogger(__name__)
 JST = timezone(timedelta(hours=9))
 
 
+def _used_episode_stems() -> set[str]:
+    """過去に一度でも使った音声ファイル名(拡張子なし)を集める。
+
+    ディスク上の音声だけを見ると、差し替えで旧音声を削除した際に同じ名前が
+    再利用され、配信側のキャッシュに古い音声が残ったままになる。
+    アーカイブ済み台本とRSSの記録も併せて見て、名前を使い回さないようにする。
+    """
+    stems = {p.stem for p in config.AUDIO_DIR.glob("*.mp3")}
+    if config.PUBLISHED_SCRIPTS_DIR.exists():
+        stems |= {p.stem for p in config.PUBLISHED_SCRIPTS_DIR.glob("*.json")}
+    episodes_json = config.DOCS_DIR / "episodes.json"
+    if episodes_json.exists():
+        try:
+            for ep in json.loads(episodes_json.read_text(encoding="utf-8")):
+                if ep.get("audio_file"):
+                    stems.add(Path(ep["audio_file"]).stem)
+        except (ValueError, TypeError):
+            logger.warning("episodes.json を読めませんでした(名前の重複チェックは音声ファイルのみ)")
+    return stems
+
+
 def _unique_episode_path(jst_now: datetime) -> "config.Path":
     """JST日付ベースで衝突しない音声ファイルパスを返す。
 
     GitHub Actionsランナーは時刻がUTCのため、JST基準で日付を決める。
     同一JST日に複数回生成された場合は連番を付けて上書きを防ぐ。
+    過去に使った名前は(ファイルを消していても)再利用しない。
     """
     jst_today = jst_now.strftime("%Y-%m-%d")
-    path = config.AUDIO_DIR / f"episode_{jst_today}.mp3"
+    used = _used_episode_stems()
+    stem = f"episode_{jst_today}"
     n = 2
-    while path.exists():
-        path = config.AUDIO_DIR / f"episode_{jst_today}_{n}.mp3"
+    while stem in used:
+        stem = f"episode_{jst_today}_{n}"
         n += 1
-    return path
+    return config.AUDIO_DIR / f"{stem}.mp3"
 
 
 def main() -> int:
