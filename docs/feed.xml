@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sun, 16 Aug 2026 17:28:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 15:18:04 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#26 本日ついにACLエリート抽選会・鹿島はポット1、佐野海舟の去就は膠着＆【栄光の軌跡・名勝負編②】2016年クラブW杯準決勝(2026年8月18日)</title>
+      <description>鹿島アントラーズ デイリー第26回。本日8月18日、いよいよACLエリート2026-27のリーグステージ抽選会が日本時間17時からクアラルンプールで行われます。拡大された新方式で東地区16チーム、鹿島は最上位のポット1。同国対戦を避けて8試合を戦い、上位8チームが決勝トーナメントへ。日本勢は史上最多5クラブが参戦します。移籍市場では佐野海舟(マインツ)の去就が膠着状態で、現時点で具体的な交渉はなく、マインツは安売りを検討せず27日の独自期限を見据える構え。次節は22日ホーム福岡戦(潮来の日)。栄光の軌跡は名勝負編第2回、2016年クラブW杯準決勝・アトレティコ・ナシオナル戦を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-18.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-18.mp3" length="3811413" type="audio/mpeg"/>
+      <pubDate>Mon, 17 Aug 2026 15:18:04 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-18.jpg"/>
+    </item>
     <item>
       <title>#25 背番号2と共闘・安西幸輝がゴール裏へ挨拶、上田綺世1ゴール1アシスト＆【栄光の軌跡㉑】2025年・9年ぶりのJ1制覇(2026年8月17日)</title>
       <description>鹿島アントラーズ デイリー第25回。名古屋戦の試合前、イレブン全員が安西幸輝の背番号2のTシャツでウォーミングアップ。本人もゴール裏のサポーターへ挨拶し、スローガン共闘を体現しました。海外組はフェイエノールト上田綺世が16日のゴーアヘッド・イーグルス戦で今季初ゴールを含む1ゴール1アシスト(試合は2対2)。18日のACLエリート抽選会、22日ホーム福岡戦(潮来の日)の予定も。栄光の軌跡は第21回、悲願の2025年・9年ぶり9度目のJ1制覇を大幅拡大版で。9年間の雌伏、鬼木達監督の就任、レオ・セアラと鈴木優磨のダブルエース、離脱者の穴を埋めたエウベル・小川諒也・千田海人、ホーム柏戦の松村優太弾とアウェイ京都戦の鈴木優磨弾、3万7079人の最終節、早川友基のMVPと史上初の2クラブJ1制覇まで、たっぷり振り返ります。</description>
