@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 19 Aug 2026 05:54:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 15:41:06 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#28 福岡戦へ再始動・鬼木監督が囲み取材、22日は潮来の日＆【栄光の軌跡・名勝負編③】2018年ACL初制覇・ペルセポリス戦(2026年8月19日)</title>
+      <description>鹿島アントラーズ デイリー第28回。ビッグニュースの少ない一日ですが、8月18日には福岡戦へ向けてトレーニングが再開され、多くのサポーターが見守る中、鬼木達監督がメディアの囲み取材に応じました。開幕2連勝・勝点6でリーグ3位につける鹿島は、22日土曜18時からホームのメルカリスタジアムでアビスパ福岡と対戦。この日はホームタウンデイズ『潮来の日』として開催され、縁日企画やU18ワンコイン(500円)も。栄光の軌跡は名勝負編第3回、9月開幕のACLエリートにちなみ、2018年のアジア・チャンピオンズリーグ初制覇、決勝ペルセポリス戦を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-20.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-20.mp3" length="3589850" type="audio/mpeg"/>
+      <pubDate>Wed, 19 Aug 2026 15:41:06 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-20.jpg"/>
+    </item>
     <item>
       <title>#27 ACLエリート組み合わせ決定！ホームに全北現代・浦項、東南アジア遠征は3度＆【栄光の軌跡・名勝負編②】2016年クラブW杯決勝・レアル戦(2026年8月19日)</title>
       <description>鹿島アントラーズ デイリー第27回。8月18日クアラルンプールで行われたACLエリート2026-27リーグステージの抽選会で、鹿島が戦う8クラブが決定。ホームのメルカリスタジアムには全北現代、ニューカッスル・ジェッツ、浦項スティーラース、ラチャブリーを迎え、アウェイではブリーラム・ユナイテッド、大田ハナシチズン、ポート、コンアン・ハノイと対戦します。韓国の強豪2つをホームで迎える一方、東南アジア遠征は3度という過酷な日程に。中国勢との対戦はなし。リーグステージは9月14日開幕、2027年2月17日まで8試合、上位8クラブがラウンド16へ進み決勝は2027年5月1日です。次節は22日ホーム福岡戦(潮来の日)。栄光の軌跡は名勝負編第2回、2016年クラブワールドカップ決勝、レアル・マドリードとの死闘を振り返ります。</description>
