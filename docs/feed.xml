@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 19 Aug 2026 15:41:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 15:20:02 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#29 いよいよ明日ホーム福岡戦・アビスパは前節C大阪撃破の勢い＆【栄光の軌跡・名勝負編④】2016年J1チャンピオンシップ決勝・逆転の埼スタ(2026年8月21日)</title>
+      <description>鹿島アントラーズ デイリー第29回。いよいよ明日8月22日土曜、ホームのメルカリスタジアムでアビスパ福岡と激突します。福岡は開幕黒星スタートも第2節でC大阪を3対0で完封し、藤本と辻岡が得点、加入のウェリック・ポポも初ゴールと勢いに乗る難敵。開幕2連勝・勝点6でリーグ上位につける鹿島は、ホーム開幕戦をどうしても勝点3で締めたい一戦です。この日はホームタウンデイズ『潮来の日』として夏祭り企画も。海外組は佐野海舟(マインツ)の去就が依然として膠着状態。栄光の軌跡は名勝負編第4回、2016年J1チャンピオンシップ決勝、金崎夢生の同点弾と決勝PKで浦和を沈めた埼スタの逆転劇を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-21.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-21.mp3" length="3755780" type="audio/mpeg"/>
+      <pubDate>Thu, 20 Aug 2026 15:20:02 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-21.jpg"/>
+    </item>
     <item>
       <title>#28 福岡戦へ再始動・鬼木監督が囲み取材、22日は潮来の日＆【栄光の軌跡・名勝負編③】2018年ACL初制覇・ペルセポリス戦(2026年8月19日)</title>
       <description>鹿島アントラーズ デイリー第28回。ビッグニュースの少ない一日ですが、8月18日には福岡戦へ向けてトレーニングが再開され、多くのサポーターが見守る中、鬼木達監督がメディアの囲み取材に応じました。開幕2連勝・勝点6でリーグ3位につける鹿島は、22日土曜18時からホームのメルカリスタジアムでアビスパ福岡と対戦。この日はホームタウンデイズ『潮来の日』として開催され、縁日企画やU18ワンコイン(500円)も。栄光の軌跡は名勝負編第3回、9月開幕のACLエリートにちなみ、2018年のアジア・チャンピオンズリーグ初制覇、決勝ペルセポリス戦を振り返ります。</description>
