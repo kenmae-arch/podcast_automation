@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Thu, 20 Aug 2026 15:20:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 15:15:17 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#30 本日ホーム福岡戦・いよいよ試合当日／ユース3選手が来季トップ昇格＆【栄光の軌跡・名勝負編⑤】2007年最終節・奇跡の大逆転優勝(2026年8月22日)</title>
+      <description>鹿島アントラーズ デイリー第30回。いよいよ本日8月22日土曜18時、ホームのメルカリスタジアムで明治安田J1リーグ第3節・アビスパ福岡戦です。福岡は開幕黒星も第2節でC大阪を3対0で完封し勢いに乗る難敵で、一部メディアは『鹿島の不敗神話崩壊か』と波乱含みの一戦に注目。開幕2連勝・勝点6の鹿島はホーム開幕戦を勝点3で締めたいところ。この日は潮来の日で夏祭り企画も。ニュースはユースの大貫琉偉(42)・平島大悟(44)・福岡勇和(43)の世代別代表3選手が来季2026-27シーズンからトップ昇格。栄光の軌跡は名勝負編第5回、2007年J1最終節、最大勝点差10を9連勝でひっくり返し最終節で初めて首位に立った奇跡の大逆転優勝を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-22.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-22.mp3" length="3697266" type="audio/mpeg"/>
+      <pubDate>Fri, 21 Aug 2026 15:15:17 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-22.jpg"/>
+    </item>
     <item>
       <title>#29 いよいよ明日ホーム福岡戦・アビスパは前節C大阪撃破の勢い＆【栄光の軌跡・名勝負編④】2016年J1チャンピオンシップ決勝・逆転の埼スタ(2026年8月21日)</title>
       <description>鹿島アントラーズ デイリー第29回。いよいよ明日8月22日土曜、ホームのメルカリスタジアムでアビスパ福岡と激突します。福岡は開幕黒星スタートも第2節でC大阪を3対0で完封し、藤本と辻岡が得点、加入のウェリック・ポポも初ゴールと勢いに乗る難敵。開幕2連勝・勝点6でリーグ上位につける鹿島は、ホーム開幕戦をどうしても勝点3で締めたい一戦です。この日はホームタウンデイズ『潮来の日』として夏祭り企画も。海外組は佐野海舟(マインツ)の去就が依然として膠着状態。栄光の軌跡は名勝負編第4回、2016年J1チャンピオンシップ決勝、金崎夢生の同点弾と決勝PKで浦和を沈めた埼スタの逆転劇を振り返ります。</description>
