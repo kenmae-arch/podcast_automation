@@ -1,19 +1,19 @@
 #!/usr/bin/env python3
-"""台本の「読み方が不安な語」を洗い出す事前チェック。
+"""台本の「読み方が不安な語」を音声生成の前に洗い出す。
 
-音声生成の前にこれを実行し、フラグが立った語をユーザーに確認してから
-`pronunciation_dict.json` に登録する運用にする(読み間違いの作り込み防止)。
+`main.py` から呼ばれ、危険度の高い語が未登録なら音声生成を中止する
+(ユーザー方針: 誤読が実際に起きたクラスだけは必ず人の確認を通す)。
 
   python check_readings.py                     # scripts/pending.json をチェック
   python check_readings.py path/to/script.json
   python check_readings.py --approve 藤本 辻岡  # 「そのままで正しく読める」と確認済みにする
+  python check_readings.py --seed              # 配信済み台本の漢字語を確認済みに取り込む
 
-判定の流れ:
-  1. pronunciation_dict.json を最長一致で適用し、置換済みの部分を伏せる
-  2. 残ったテキストから「読みが割れやすい形」の語を抜き出す
-  3. reading_safelist.json (確認済み) と一般語リストに載っていないものを表示
-
-フラグが1つでも残れば終了コード1を返すので、リリース前のゲートに使える。
+危険度:
+  block  数字+分/試合、U-16型の英数字、辞書にない人名(直後が「選手」「監督」など)
+         → 実際に誤読が報告されたクラス。未登録なら音声を作らない。
+  warn   その他の英数字・数字+助数詞。生成は止めず、朝の報告で一覧にする。
+  info   初出の漢字語。目視で違和感があるものだけ拾う。
 """
 import argparse
 import json
@@ -25,17 +25,18 @@ BASE = Path(__file__).resolve().parent
 DICT_PATH = BASE / "pronunciation_dict.json"
 SAFELIST_PATH = BASE / "reading_safelist.json"
 PENDING_PATH = BASE / "scripts" / "pending.json"
+PUBLISHED_DIR = BASE / "scripts" / "published"
 
-# 読みが割れやすい形。ここに当たったものだけを候補にする。
-PATTERNS = [
-    # U-16 / J1 / ACL / PK / MVP のような英数字トークン
-    ("英数字", re.compile(r"[A-Za-z][A-Za-z0-9]*(?:[-‐–—][0-9A-Za-z]+)*")),
-    # 数字+助数詞。「8分(はちふん/はっぷん)」のように読みが揺れる
-    ("数字+助数詞", re.compile(
-        r"[0-9]+(?:分|試合|点|人|位|回|本|度目|度|歳|番|節|冠|部|連勝|連敗|得点|失点|万人|億円|年ぶり)")),
-    # 漢字2文字以上。固有名詞・熟語はここで拾う
-    ("漢字語", re.compile(r"[一-鿿々]{2,}")),
-]
+# 誤読が実際に起きたクラス。ここに当たるものは未登録なら生成を止める。
+RE_MINUTE = re.compile(r"[0-9]+(?:分|試合)")
+RE_ALNUM_MIX = re.compile(r"[A-Za-z]+[-‐–—][0-9][0-9.]*|[A-Za-z]+[0-9][0-9.]*")
+# 生成は止めないが報告はする
+RE_ALPHA = re.compile(r"[A-Za-z]{2,}")
+RE_COUNTER = re.compile(
+    r"[0-9]+(?:点|人|位|回|本|度目|度|歳|番|節|冠|部|連勝|連敗|連覇|得点|失点|万人|億円|年ぶり)")
+RE_KANJI = re.compile(r"[一-鿿々]{2,}")
+# 「◯◯選手」「◯◯監督」の◯◯は人名とみなす(敬称は漢字なので語ごと拾って外す)
+RE_NAME = re.compile(r"([一-鿿々]{2,6}?)(?:選手|監督|コーチ|主将|会長|社長|氏)")
 
 # サッカー/ニュースの台本に日常的に出る語。読み間違いの実績がないものだけ入れる。
 COMMON = set("""
@@ -69,23 +70,39 @@ def mask_dictionary_hits(text, mapping):
     return text
 
 
-# 人名らしさの判定。この語に続くならほぼ人名なので、必ず目視確認に回す。
-NAME_SUFFIX = re.compile(r"(?:選手|監督|コーチ|主将|会長|社長|氏|さん|くん)")
+def analyze(text, mapping=None, safelist=None):
+    """台本テキストを危険度別に分類して返す。
 
+    戻り値: {"block": [(語, 種別)], "warn": [...], "info": [語, ...]}
+    """
+    mapping = load_json(DICT_PATH, {}) if mapping is None else mapping
+    safelist = set(load_json(SAFELIST_PATH, [])) if safelist is None else safelist
+    masked = mask_dictionary_hits(text, mapping)
 
-def extract_candidates(text):
-    """(語, 種別, 位置, 要確認度) の一覧を出現順で返す。"""
-    found = {}
-    for label, pattern in PATTERNS:
-        for m in pattern.finditer(text):
-            token = m.group()
-            if token in found:
-                continue
-            # 英数字と数字+助数詞は読みが割れやすいので常に高。
-            # 漢字語は「直後に選手/監督などが続く=人名らしい」ものだけ高にする。
-            high = label != "漢字語" or bool(NAME_SUFFIX.match(text, m.end()))
-            found[token] = (label, m.start(), high)
-    return sorted(((t, l, p, h) for t, (l, p, h) in found.items()), key=lambda x: x[2])
+    seen = {}
+
+    def add(level, label, token, pos):
+        if token in seen or token in safelist or token in COMMON:
+            return
+        seen[token] = (level, label, pos)
+
+    for m in RE_MINUTE.finditer(masked):
+        add("block", "数字+分/試合", m.group(), m.start())
+    for m in RE_ALNUM_MIX.finditer(masked):
+        add("block", "英数字混在", m.group(), m.start())
+    for m in RE_NAME.finditer(masked):
+        add("block", "人名らしい語", m.group(1), m.start())
+    for m in RE_ALPHA.finditer(masked):
+        add("warn", "英字", m.group(), m.start())
+    for m in RE_COUNTER.finditer(masked):
+        add("warn", "数字+助数詞", m.group(), m.start())
+    for m in RE_KANJI.finditer(masked):
+        add("info", "漢字語", m.group(), m.start())
+
+    out = {"block": [], "warn": [], "info": []}
+    for token, (level, label, pos) in sorted(seen.items(), key=lambda kv: kv[1][2]):
+        out[level].append(token if level == "info" else (token, label))
+    return out
 
 
 def context_of(text, token, width=22):
@@ -99,6 +116,24 @@ def context_of(text, token, width=22):
     return head + text[s:e].replace("\n", " ") + tail
 
 
+def script_text(data):
+    return "\n".join(str(data.get(k, "")) for k in ("title", "description", "script"))
+
+
+def report(text, result, stream=print):
+    if result["block"]:
+        stream(f"■ 要確認 {len(result['block'])}件 -- 未登録のまま音声を作らない")
+        for token, label in result["block"]:
+            stream(f"  [{label}] {token}")
+            stream(f"      {context_of(text, token)}")
+    if result["warn"]:
+        stream(f"■ 参考(生成は継続) {len(result['warn'])}件")
+        stream("  " + " / ".join(t for t, _ in result["warn"]))
+    if result["info"]:
+        stream(f"■ 初出の漢字語 {len(result['info'])}件")
+        stream("  " + " / ".join(result["info"]))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("script", nargs="?", default=str(PENDING_PATH))
@@ -106,20 +141,18 @@ def main():
                     help="そのままで正しく読めると確認できた語を確認済みリストに追加する")
     ap.add_argument("--seed", action="store_true",
                     help="配信済み台本(scripts/published)に出てきた漢字語を確認済みに取り込む。"
-                         "人名らしい語・英数字・数字+助数詞は毎回確認したいので取り込まない")
+                         "人名・英数字・数字+助数詞は毎回確認したいので取り込まない")
     args = ap.parse_args()
 
     safelist = set(load_json(SAFELIST_PATH, []))
+    mapping = load_json(DICT_PATH, {})
 
     if args.seed:
-        mapping = load_json(DICT_PATH, {})
         added = set()
-        for p in sorted((BASE / "scripts" / "published").glob("*.json")):
-            data = json.loads(p.read_text(encoding="utf-8"))
-            text = "\n".join(str(data.get(k, "")) for k in ("title", "description", "script"))
-            for token, label, _, high in extract_candidates(mask_dictionary_hits(text, mapping)):
-                if not high and token not in COMMON:
-                    added.add(token)
+        for p in sorted(PUBLISHED_DIR.glob("*.json")):
+            res = analyze(script_text(json.loads(p.read_text(encoding="utf-8"))),
+                          mapping, safelist)
+            added |= set(res["info"])
         safelist |= added
         SAFELIST_PATH.write_text(
             json.dumps(sorted(safelist), ensure_ascii=False, indent=2) + "\n",
@@ -139,36 +172,19 @@ def main():
     if not path.exists():
         print(f"台本が見つかりません: {path}", file=sys.stderr)
         return 2
-    data = json.loads(path.read_text(encoding="utf-8"))
-    raw = "\n".join(str(data.get(k, "")) for k in ("title", "description", "script"))
-
-    mapping = load_json(DICT_PATH, {})
-    masked = mask_dictionary_hits(raw, mapping)
-
-    flagged = [(t, l, h) for t, l, _, h in extract_candidates(masked)
-               if t not in safelist and t not in COMMON]
-    high = [(t, l) for t, l, h in flagged if h]
-    low = [t for t, l, h in flagged if not h]
+    text = script_text(json.loads(path.read_text(encoding="utf-8")))
+    result = analyze(text, mapping, safelist)
 
     print(f"台本: {path}")
-    print(f"辞書 {len(mapping)}語 / 確認済み {len(safelist)}語")
-    if not flagged:
-        print("\n読みの確認が必要な語はありません。")
+    print(f"辞書 {len(mapping)}語 / 確認済み {len(safelist)}語\n")
+    if not any(result.values()):
+        print("読みの確認が必要な語はありません。")
         return 0
-
-    if high:
-        print(f"\n■ 要確認 {len(high)}件 (英数字・数字+助数詞・人名らしい語)")
-        for token, label in high:
-            print(f"  [{label}] {token}")
-            print(f"      {context_of(raw, token)}")
-    if low:
-        print(f"\n■ 参考 {len(low)}件 (初出の漢字語。目視で違和感があるものだけ拾う)")
-        print("  " + " / ".join(low))
+    report(text, result)
     print("\n対応:")
     print("  読みを指定する  -> pronunciation_dict.json に「表記: 読み」を追加")
-    print("  そのままで良い  -> python check_readings.py --approve "
-          + " ".join(t for t, _, _ in flagged[:5]))
-    return 1 if high else 0
+    print("  そのままで良い  -> python check_readings.py --approve <語> ...")
+    return 1 if result["block"] else 0
 
 
 if __name__ == "__main__":

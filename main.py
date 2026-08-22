@@ -11,6 +11,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+import check_readings
 import config
 import episode_art
 from audio_generator import create_audio_generator
@@ -75,6 +76,22 @@ def main() -> int:
         logger.info("=== 2/4 台本取得 (%s) ===", config.LLM_PROVIDER)
         episode = create_script_generator().generate(topics)
         logger.info("台本: %s (%d文字)", episode.title, len(episode.script))
+
+        # 2.5 読みの事前チェック。誤読の実績があるクラス(数字+分/試合、U-16型、
+        # 辞書にない人名)が未登録なら、音声を作らずに台本を残して止める。
+        # 台本は scripts/pending.json に残るので、読みを登録して再実行すればよい。
+        text = "\n".join((episode.title, episode.description, episode.script))
+        readings = check_readings.analyze(text)
+        if readings["warn"] or readings["info"]:
+            logger.info("読みチェック(参考): %s",
+                        " / ".join([t for t, _ in readings["warn"]] + readings["info"]))
+        if readings["block"]:
+            logger.error("読みが未確認の語があるため音声生成を中止しました:")
+            check_readings.report(text, {"block": readings["block"], "warn": [], "info": []},
+                                  stream=logger.error)
+            logger.error("pronunciation_dict.json に読みを登録するか、"
+                         "python check_readings.py --approve <語> で確認済みにしてから再実行してください")
+            return 1
 
         # 3. 音声生成
         logger.info("=== 3/4 音声生成 (Fish Audio: %s) ===", config.FISH_AUDIO_MODEL)
