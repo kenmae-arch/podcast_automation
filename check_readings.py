@@ -29,14 +29,15 @@ PUBLISHED_DIR = BASE / "scripts" / "published"
 
 # 誤読が実際に起きたクラス。ここに当たるものは未登録なら生成を止める。
 RE_MINUTE = re.compile(r"[0-9]+(?:分|試合)")
-RE_ALNUM_MIX = re.compile(r"[A-Za-z]+[-‐–—][0-9][0-9.]*|[A-Za-z]+[0-9][0-9.]*")
+RE_ALNUM_MIX = re.compile(
+    r"[A-Za-z]+(?:[-‐–— ][0-9][0-9.]*|[0-9][0-9.]*)")
 # 生成は止めないが報告はする
 RE_ALPHA = re.compile(r"[A-Za-z]{2,}")
 RE_COUNTER = re.compile(
     r"[0-9]+(?:点|人|位|回|本|度目|度|歳|番|節|冠|部|連勝|連敗|連覇|得点|失点|万人|億円|年ぶり)")
 RE_KANJI = re.compile(r"[一-鿿々]{2,}")
 # 「◯◯選手」「◯◯監督」の◯◯は人名とみなす(敬称は漢字なので語ごと拾って外す)
-RE_NAME = re.compile(r"([一-鿿々]{2,6}?)(?:選手|監督|コーチ|主将|会長|社長|氏)")
+RE_NAME = re.compile(r"([一-鿿々]{2,6}?)(?:選手|監督|コーチ|主将|会長|社長|氏|CEO|CTO|CFO|COO)")
 
 # サッカー/ニュースの台本に日常的に出る語。読み間違いの実績がないものだけ入れる。
 COMMON = set("""
