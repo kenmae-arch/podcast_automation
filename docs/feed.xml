@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 Aug 2026 15:47:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 15:16:09 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#32 開幕3連勝の「次の一歩」／鬼木監督が課題視した失点とバージョンアップの現在地、中3日で天皇杯・鈴鹿戦＆【栄光の軌跡・名勝負編⑦】2016年クラブW杯準決勝・アジア勢初の決勝進出(2026年8月23日)</title>
+      <description>鹿島アントラーズ デイリー第32回。昨夜ホーム福岡戦を3対2で制し12シーズンぶりの開幕3連勝を達成しましたが、今朝の各紙は「らしくない失点」を課題として深掘り。開幕3戦で6失点、鬼木達監督は劇的勝利を「メンタルの強さ」と評価しつつ3失点を課題視しました。背景には清水から加入したボランチ、マテウス・ブエノをチームに組み込むバージョンアップの途上、18歳・吉田湊海ら若手を試し続ける試行錯誤があります。次は中3日で天皇杯2回戦、8月26日水曜19時ホーム・メルカリスタジアムでアトレチコ鈴鹿戦。栄光の軌跡・名勝負編第7回は2016年クラブW杯準決勝、南米王者アトレティコ・ナシオナルを3対0で下しアジア勢初の決勝進出を果たした一戦を振り返ります。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-24.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-24.mp3" length="3087045" type="audio/mpeg"/>
+      <pubDate>Sun, 23 Aug 2026 15:16:09 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-24.jpg"/>
+    </item>
     <item>
       <title>#31 ホーム福岡戦を3対2で制し開幕3連勝！レオ・セアラ3戦連発＆【栄光の軌跡・名勝負編⑥】1993年開幕・ジーコ伝説のハットトリック(2026年8月22日)</title>
       <description>鹿島アントラーズ デイリー第31回。8月22日夜のホーム・メルカリスタジアム、明治安田J1リーグ第3節でアビスパ福岡を3対2で撃破し、2014年以来12シーズンぶりの開幕3連勝を達成しました。前半31分に小川諒也のFKから先制も、元鹿島・師岡柊生の古巣弾で追いつかれ、後半60分レオ・セアラ、64分チャヴリッチの4分間連続弾で突き放して逃げ切り。レオ・セアラは開幕3戦連発でマルキーニョス以来18年ぶりの記録、リーグ18試合無敗はクラブ最長。栄光の軌跡・名勝負編第6回は1993年開幕戦、ジーコのJリーグ史上初ハットトリックと5対0の完勝を振り返ります。</description>
