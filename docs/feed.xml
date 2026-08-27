@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Thu, 27 Aug 2026 04:38:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 15:17:20 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -23,11 +23,19 @@
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
     <item>
+      <title>#36 佐野海舟の去就に区切り、8月27日の期限越えでリヴァプール・ライプツィヒが撤退しマインツ残留の公算／元鹿島・上田綺世がフェイエノールトで2試合連発・開幕3戦2発の量産態勢＆【栄光の軌跡・名勝負編⑪】2016年クラブW杯開幕戦、途中出場の赤崎秀平・金崎夢生弾でオークランドを逆転、世界への快進撃の起点(2026年8月28日)</title>
+      <description>鹿島アントラーズ デイリー第36回。元鹿島・佐野海舟(マインツ)の去就がひとつの区切りへ。マインツが移籍容認の目安としていた8月27日を越え、リヴァプールに続きライプツィヒも撤退が報じられ、6000万ユーロ・約110億円という要求額の高さから今夏のステップアップ移籍は見送り、残留の公算が大きいと現地メディアが伝えています。海外組コーナーは同じく元鹿島の上田綺世(フェイエノールト)。8月16日にダイビングヘッドで今季初弾となるクラブ歴代3位相当の得点を決め、23日のカンブール戦ではPKで2試合連発、チームは5対2で快勝。開幕3戦2発と量産態勢に入っています。栄光の軌跡・名勝負編第11回は2016年クラブW杯の開幕戦。50分にキム・デウクに先制されながら、途中出場の赤崎秀平が67分、金崎夢生が87分に決めてオークランド・シティを2対1で逆転。のちの決勝レアル戦へと続く世界への快進撃の起点でした。次戦は8月29日土曜、アウェイ味の素スタジアムで東京ヴェルディ戦。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-28.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-28.mp3" length="3748674" type="audio/mpeg"/>
+      <pubDate>Thu, 27 Aug 2026 15:17:20 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-28.jpg"/>
+    </item>
+    <item>
       <title>#35 天皇杯2回戦・鈴鹿を3対0で撃破しベスト16へ／千田海人が加入後初弾、17歳・元砂晏翔仁ウデンバらがデビュー、佐野海舟の去就は今日8月27日がヤマ場＆【栄光の軌跡・名勝負編⑩】2018年ACLラウンド16・金満軍団の上海上港を2戦合計4対3で振り切り10年ぶりの8強(2026年8月27日)</title>
       <description>鹿島アントラーズ デイリー第35回。昨夜8月26日、ホーム・メルカリスタジアムでの天皇杯2回戦でアトレチコ鈴鹿を3対0で下し3回戦進出。鈴木優磨・レオ・セアラらをベンチに置く大幅ターンオーバーで、17歳・元砂晏翔仁ウデンバがボランチでプロ初出場、19歳・大川佑梧も左SBでデビュー。後半47分に千田海人が加入後初ゴールとなるハーフボレー、75分にチャヴリッチのPK、90分にレオ・セアラが仕上げました。海外組は元鹿島の佐野海舟の去就が今日8月27日にヤマ場、マインツが独自期限を設定し移籍金110億円規模、リヴァプールやニューカッスルが関心と報じられています。栄光の軌跡・名勝負編第10回は2018年ACLラウンド16、フッキやオスカルを擁する上海上港を2戦合計4対3で振り切った10年ぶりの8強進出。次戦は8月29日土曜、アウェイ味の素スタジアムで東京ヴェルディ戦。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-27_2.mp3</guid>
       <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-27_2.mp3" length="3004707" type="audio/mpeg"/>
-      <pubDate>Thu, 27 Aug 2026 00:08:01 +0000</pubDate>
+      <pubDate>Thu, 27 Aug 2026 04:38:52 +0000</pubDate>
       <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-27_2.jpg"/>
     </item>
     <item>
