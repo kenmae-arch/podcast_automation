@@ -49,6 +49,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "変更なし。コミットをスキップします。"
           else
-            git commit -m "Publish episode $(date -u +%Y-%m-%d)"
+            git commit -m "Publish episode $(TZ=Asia/Tokyo date +%Y-%m-%d)"
             git push
           fi
