@@ -30,10 +30,13 @@ def save_store(store):
 
 
 def get_credentials():
-    from google.oauth2 import service_account
-
     raw = os.getenv("GA4_SERVICE_ACCOUNT_JSON", "").strip()
     path = os.getenv("GA4_SERVICE_ACCOUNT_FILE", "").strip()
+    if not raw and not path:
+        return None
+
+    from google.oauth2 import service_account
+
     if raw:
         info = json.loads(raw)
         creds = service_account.Credentials.from_service_account_info(info)
