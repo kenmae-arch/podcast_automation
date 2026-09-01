@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "lastUpdated": null,
+    "connections": {
+      "ga4": {"state": "pending", "note": "サービスアカウント鍵と環境変数の設定待ち"},
+      "spotify": {"state": "pending", "note": "CSVエクスポートの初回取込待ち"},
+      "apple": {"state": "pending", "note": "CSVエクスポートの初回取込待ち"},
+      "amazon": {"state": "pending", "note": "CSVエクスポートの初回取込待ち"}
+    },
+    "processedFiles": []
+  },
+  "shows": {
+    "antlers": {"title": "鹿島アントラーズ デイリー"},
+    "jrap": {"title": "日本語ラップ アルバム全曲解説"},
+    "music": {"title": "アルバム全曲解説"}
+  },
+  "series": {},
+  "episodes": {},
+  "web": {"ga4": {}}
+}
