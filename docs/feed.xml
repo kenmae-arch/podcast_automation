@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>鹿島アントラーズ デイリー</title>
     <link>https://kenmae-arch.github.io/podcast_automation/feed.xml</link>
     <description>鹿島アントラーズの最新ニュース、試合情報、移籍動向、サポーターの間で話題のトピックを毎日お届けするAI生成ポッドキャストです。</description>
-    <atom:link href="https://kenmae-arch.github.io/podcast_automation/feed.xml" rel="self"/>
+    <atom:link href="https://kenmae-arch.github.io/podcast_automation/feed.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <image>
@@ -15,8 +15,8 @@
     <language>ja</language>
     <lastBuildDate>Thu, 10 Sep 2026 00:05:14 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
-    <itunes:category text="Sports"/>
-    <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
+    <itunes:category text="Sports" />
+    <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
       <itunes:name>Antlers Daily Podcast</itunes:name>
@@ -26,398 +26,390 @@
       <title>#49 明日9月11日はアウェー神戸戦、連敗ストップへ／元鹿島・上田綺世がフランス1部リールへ移籍、CLベティス戦で先制ヘッド＆公式戦5戦連発の圧巻ペース＆【栄光の軌跡・名選手編⑫】黄金期の右サイドを駆け上がった名良橋晃(2026年9月10日)</title>
       <description>鹿島アントラーズ デイリー第49回。いよいよ明日9月11日金曜夜7時、アウェー・ノエビアスタジアム神戸でヴィッセル神戸戦。連敗を止めて再浮上を狙う一戦です。まずは元鹿島の海外組から、この夏オランダのフェイエノールトからフランス1部リーグ・アンのリールへ移籍した上田綺世が新天地で絶好調。現地9月8日のチャンピオンズリーグ・リーグフェーズ第1節ベティス戦でリール加入後初先発、前半12分に先制ヘッドを決め、フェイエノールト時代から数えて公式戦5試合連続ゴール。チームは退場者を出し1対3で逆転負けも、個人は最高峰でも結果を残しました。栄光の軌跡・名選手編⑫は、黄金期の右サイドを駆け上がった元日本代表・名良橋晃を取り上げます。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-10_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-10_2.mp3" length="3187355" type="audio/mpeg"/>
-      <pubDate>Thu, 10 Sep 2026 00:05:14 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-10_2.jpg"/>
-    </item>
-    <item>
-      <title>#49 明日9月11日はアウェー神戸戦、連敗ストップへ／元鹿島・上田綺世がフランス1部リールへ移籍、CLベティス戦で先制ヘッド＆公式戦5戦連発の圧巻ペース＆【栄光の軌跡・名選手編⑫】黄金期の右サイドを駆け上がった名良橋晃(2026年9月10日)</title>
-      <description>鹿島アントラーズ デイリー第49回。いよいよ明日9月11日金曜夜7時、アウェー・ノエビアスタジアム神戸でヴィッセル神戸戦。連敗を止めて再浮上を狙う一戦です。まずは元鹿島の海外組から、この夏オランダのフェイエノールトからフランス1部リーグ・アンのリールへ移籍した上田綺世が新天地で絶好調。現地9月8日のチャンピオンズリーグ・リーグフェーズ第1節ベティス戦でリール加入後初先発、前半12分に先制ヘッドを決め、フェイエノールト時代から数えて公式戦5試合連続ゴール。チームは退場者を出し1対3で逆転負けも、個人は最高峰でも結果を残しました。栄光の軌跡・名選手編⑫は、黄金期の右サイドを駆け上がった元日本代表・名良橋晃を取り上げます。</description>
-      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-10.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-10.mp3" length="2939088" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-10_2.mp3" length="3187355" type="audio/mpeg" />
       <pubDate>Wed, 09 Sep 2026 15:20:08 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-10.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-10_2.jpg" />
     </item>
     <item>
       <title>#48 連敗ストップへ、今週金曜9月11日はアウェー神戸戦／9月8日クラブハウスで全体練習再開、鬼木監督「やるべきことは小さな積み重ね」＆今季5月にノエスタで0対5大敗した“悪夢”払拭のリベンジマッチ＆首位町田16・2位神戸13・3位鹿島12＆元鹿島の荒木遼太郎がベルギー1部シント＝トロイデンでデビュー弾＆【栄光の軌跡・名選手編⑪】初期黄金期を彩ったブラジル人アルシンド(2026年9月9日)</title>
       <description>鹿島アントラーズ デイリー第48回。浦和戦0対1で今季初連敗となった鹿島は、今週金曜9月11日夜7時、アウェー・ノエビアスタジアム神戸で立て直しを図ります。9月8日にクラブハウスで全体練習を再開し、鬼木監督は「やるべきことは小さな積み重ね」と球際や切り替えなど土台の徹底を要求。神戸戦は今季5月にこの地で0対5と大敗した“悪夢”のリベンジマッチで、指揮官も「勝っていかないと優勝は見えてこない」と序盤の大一番に位置づけます。順位は首位町田16、2位神戸13、3位鹿島12。海外組は佐野・上田ではなく、この夏ベルギー1部シント＝トロイデンへ移籍した荒木遼太郎のデビュー弾を紹介。栄光の軌跡・名選手編⑪は初期黄金期を彩ったブラジル人アルシンドを取り上げます。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-09_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-09_2.mp3" length="3748302" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-09_2.mp3" length="3748302" type="audio/mpeg" />
       <pubDate>Wed, 09 Sep 2026 00:11:40 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-09_2.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-09_2.jpg" />
     </item>
     <item>
       <title>#47 元鹿島・佐野海舟がマインツで今季初アシスト、敵地ハンブルガーSV戦5対0の快勝に貢献／浦和戦連敗から立て直しへ、今週末9月11日金曜はアウェー神戸戦・3連勝で2位の神戸に挑む＆【栄光の軌跡・名選手編⑩】黄金期の司令塔ビスマルク(2026年9月8日)</title>
       <description>鹿島アントラーズ デイリー第47回。今日はまず海外組の話題から。かつて鹿島の中盤で躍動し、今はドイツ・マインツでプレーする佐野海舟が、ブンデスリーガ第2節・敵地ハンブルガーSV戦で今季初アシスト。鋭いボール奪取からのスルーパスで先制点を演出し、チームは5対0で今季初白星、リーグ唯一の開幕2試合連続無失点を達成しました。鹿島本体は日曜の浦和戦0対1で今季初連敗も、次は今週末9月11日金曜、アウェー・ノエビアスタジアム神戸で3連勝・勝ち点13で2位の神戸戦。連敗を止めて再浮上を狙います。栄光の軌跡・名選手編⑩は、1997年にジーコの背番号10を継いだ黄金期の司令塔、ブラジル人MFビスマルクを取り上げます。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-08_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-08_2.mp3" length="3095822" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-08_2.mp3" length="3095822" type="audio/mpeg" />
       <pubDate>Tue, 08 Sep 2026 00:04:40 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-08_2.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-08_2.jpg" />
     </item>
     <item>
       <title>#46 昨夜9月6日ホーム浦和戦は0対1で今季初の連敗／前半20分の不運なオウンゴールで先制許し終盤の反撃も実らず、浦和はチョウ・キジェ監督が5バックで今季初完封＆敵地・鹿島では約10年ぶり白星＆鹿島は勝ち点12で3位キープも首位町田とは4差・2位は3連勝の神戸＆次節9月11日アウェー神戸戦＆【栄光の軌跡・名選手編⑨】常勝の礎を築いたW杯王者ジョルジーニョ(2026年9月7日)</title>
       <description>鹿島アントラーズ デイリー第46回。昨夜9月6日、ホームのメルカリスタジアムでのJ1第6節・浦和レッズ戦は0対1で敗れ、今季初の連敗に。前半20分、コーナーキックの流れから不運なオウンゴールで先制を許し、終盤の反撃も実りませんでした。浦和はチョウ・キジェ監督が5バックに変更して今季初の無失点、開幕3連敗からの3連勝で敵地・鹿島では約10年ぶりの白星。鹿島は勝ち点12で3位をキープも首位町田(16)との差は4に、2位は3連勝の神戸(13)。次節は9月11日金曜、アウェーのノエビアスタジアム神戸でヴィッセル神戸戦です。栄光の軌跡・名選手編⑨は、94年W杯優勝を経験し常勝鹿島の礎を築いたブラジル人ジョルジーニョを取り上げます。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-07.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-07.mp3" length="4248599" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-07.mp3" length="4248599" type="audio/mpeg" />
       <pubDate>Sun, 06 Sep 2026 15:12:30 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-07.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-07.jpg" />
     </item>
     <item>
       <title>#45 いよいよ今夜9月6日日曜午後6時、ホーム・メルカリスタジアムで浦和レッズ戦／水戸戦2対4黒星で3位後退の鹿島、連敗を止めて立て直しへ＆浦和は新監督チョウ・キジェのもと開幕3連敗から一転2連勝で上向き、勢いを止められるか＆焦点は4失点した守備の修正＆メルカリ冠試合「すべては勝利のために」＆【栄光の軌跡・名選手編⑧】黄金時代の左サイドバック・相馬直樹(2026年9月6日)</title>
       <description>鹿島アントラーズ デイリー第45回。いよいよ今夜9月6日日曜午後6時、ホームのメルカリスタジアムでJ1第6節・浦和レッズ戦。水戸への2対4の黒星で開幕4連勝が止まり3位に後退した鹿島にとって、連敗を止めて立て直したい一戦です。相手の浦和は今季から京都を率いたチョウ・キジェ監督が就任、開幕3連敗から一転2連勝で上向き。順位は14位ながら侮れません。焦点は水戸戦で4失点した守備の修正と鬼木監督の采配。メルカリ冠試合「すべては勝利のために」の来場企画も紹介。栄光の軌跡・名選手編⑧は、黄金時代の左サイドを支えた名手・相馬直樹を取り上げます。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-06.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-06.mp3" length="3819310" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-06.mp3" length="3819310" type="audio/mpeg" />
       <pubDate>Sat, 05 Sep 2026 15:12:35 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-06.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-06.jpg" />
     </item>
     <item>
       <title>#44 いよいよ明日9月6日日曜、午後6時ホーム・メルカリスタジアムで浦和レッズ戦／水戸戦黒星で3位に後退の鹿島、連敗だけは避けたい立て直しの一戦、勢いに乗る浦和を迎え撃つ＆メルカリ冠試合「すべては勝利のために」エコバッグ4000名プレゼント・小学生以下無料＆【栄光の軌跡・名選手編⑦】アントラーズの闘将・秋田豊(2026年9月5日)</title>
       <description>鹿島アントラーズ デイリー第44回。いよいよ明日9月6日日曜午後6時、ホームのメルカリスタジアムでJ1第6節・浦和レッズ戦。水戸への2対4の黒星で開幕4連勝が止まり3位に後退した鹿島にとって、連敗だけは避けたい立て直しの一戦です。首位は無敗の町田、2位は柏。エースのレオ・セアラは今季リーグ8得点と得点ランキング上位。勢いに乗る浦和を、ホームで迎え撃ちます。サポーター話題はメルカリ冠試合「メルカリスペシャルマッチ～すべては勝利のために～」。オリジナルエコバッグ4000名プレゼントや小学生以下無料などの企画も。栄光の軌跡・名選手編⑦は、Jリーグ開幕から11年間、鹿島の守備を支えた闘将・秋田豊を取り上げます。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-05.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-05.mp3" length="3467806" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-05.mp3" length="3467806" type="audio/mpeg" />
       <pubDate>Fri, 04 Sep 2026 15:20:19 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-05.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-05.jpg" />
     </item>
     <item>
       <title>#43 開幕4連勝から一転、鹿島は水戸戦黒星で首位陥落・3位に後退／無敗の町田がJ1第5節を終えて首位浮上、2位柏とは勝ち点12で並び得失点差1差の僅差＆今週末9月6日日曜はホーム・メルカリスタジアムで浦和レッズ戦、立て直しの一戦＆【栄光の軌跡・名選手編⑥】黄金世代のストライカー・柳沢敦(2026年9月4日)</title>
       <description>鹿島アントラーズ デイリー第43回。J1第5節を終えて、開幕4連勝から一転、水戸への黒星で鹿島は首位から3位へ後退。無敗を守った町田ゼルビアが勝ち点13で首位に浮上し、2位柏とは勝ち点12・得失点差1差の大混戦です。それでも上位争いの真っただ中。今週末9月6日日曜は、気持ちを切り替えてホームのメルカリスタジアムで浦和レッズ戦。現在14位と苦しむ浦和を相手に、立て直しの一戦です。栄光の軌跡・名選手編⑥は、1996年加入で2年目に新人王、セリエAも経験し2度のワールドカップに出場した黄金世代のストライカー・柳沢敦を取り上げます。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-04.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-04.mp3" length="3096240" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-04.mp3" length="3096240" type="audio/mpeg" />
       <pubDate>Thu, 03 Sep 2026 15:20:31 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-04.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-04.jpg" />
     </item>
     <item>
       <title>#42 昨夜アウェイ水戸で茨城ダービー、鹿島がまさかの2対4黒星で開幕4連勝ストップ／水戸FW渡邉新太に一人4ゴールを許す、レオ・セアラは2得点で今季リーグ8発＆【栄光の軌跡・名選手編⑤】黄金世代の10番・本山雅志(2026年9月3日)</title>
       <description>鹿島アントラーズ デイリー第42回。昨夜9月2日水曜、アウェイ水戸信用金庫スタジアムでのJ1第5節、初の茨城ダービー水戸ホーリーホック戦で、鹿島が2対4の黒星。開幕からの公式戦の勢いが止まり、リーグ開幕4連勝もストップしました。水戸のエース渡邉新太にシュート5本で4得点と一人に4ゴールを許す痛恨の展開。鹿島もエースのレオ・セアラが後半に2ゴールを返し、今季はリーグ5試合で8得点としましたが、序盤の4失点が重く反撃も及びませんでした。次節は今週末9月6日日曜、ホーム・メルカリスタジアムで浦和レッズ戦。栄光の軌跡・名選手編⑤は、黄金世代の10番・天才テクニシャン本山雅志を取り上げます。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-03_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-03_2.mp3" length="3281396" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-03_2.mp3" length="3281396" type="audio/mpeg" />
       <pubDate>Wed, 02 Sep 2026 15:39:30 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-03_2.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-03_2.jpg" />
     </item>
     <item>
       <title>#41 今夜アウェイ水戸で茨城ダービー・J1第5節、開幕4連勝2位の鹿島が連勝5へ／元鹿島・上田綺世がフェイエノールトからフランス1部リールへ移籍を正式決定、移籍金約28億円・4年契約でクラブ史上初の日本人＆【栄光の軌跡・名選手編④】世界を知る万能戦士・中田浩二(2026年9月2日)</title>
       <description>鹿島アントラーズ デイリー第41回。今夜9月2日水曜、アウェイ水戸信用金庫スタジアムで午後7時キックオフ、J1第5節・茨城ダービー水戸ホーリーホック戦。開幕4連勝・勝ち点12・得失点差プラス5の2位の鹿島が、首位柏を追って連勝5を狙います。元鹿島の海外組コーナーでは、フェイエノールトの上田綺世がフランス1部リールへ移籍が正式決定した話題を。契約4年・背番号18・移籍金約1500万ユーロ(約28億円)でクラブ史上初の日本人選手。上田は水戸市出身で鹿島の下部組織出身、鹿島で3シーズン104試合47ゴール、昨季はオランダ得点王でした。栄光の軌跡・名選手編④は、帝京高校から鹿島入りしマルセイユ・バーゼルでも活躍した黄金世代の万能戦士・中田浩二。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-02.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-02.mp3" length="3426428" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-02.mp3" length="3426428" type="audio/mpeg" />
       <pubDate>Tue, 01 Sep 2026 15:28:43 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-02.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-02.jpg" />
     </item>
     <item>
       <title>#40 あす午後7時アウェイ水戸で茨城ダービー、開幕4連勝2位の鹿島がJ1昇格組・水戸ホーリーホックと対戦／レオ・セアラ開幕4戦連発6発・鬼木監督「他の一戦と変わらない気持ちで」＆元鹿島・佐野海舟が今夏の欧州移籍白紙でマインツ残留＆【栄光の軌跡・名選手編③】右サイドバックの名手・内田篤人(2026年9月1日)</title>
       <description>鹿島アントラーズ デイリー第40回。あす9月2日水曜、アウェイ水戸信用金庫スタジアムで午後7時キックオフ、J1第5節・茨城ダービー水戸ホーリーホック戦。今季J1昇格組の水戸との県内対決です。鹿島は開幕4連勝、勝ち点12・得失点差プラス5の2位で首位柏を追走。レオ・セアラは開幕4戦連発の6得点。鬼木達監督は『他の一戦と変わらない気持ちで』と自然体を強調しています。元鹿島の海外組コーナーでは、マインツの佐野海舟が今夏の欧州ビッグクラブ移籍が白紙となり残留したと報じられている件を取り上げます。栄光の軌跡・名選手編③は、2006年に高卒ルーキーで開幕スタメンを飾り、リーグ3連覇を右サイドで支えた名手・内田篤人。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-01.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-01.mp3" length="3371257" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-09-01.mp3" length="3371257" type="audio/mpeg" />
       <pubDate>Mon, 31 Aug 2026 15:29:45 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-01.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-09-01.jpg" />
     </item>
     <item>
       <title>#39 開幕4連勝は2008年以来18季ぶり、鹿島は得失点差わずかに及ばず2位で首位柏を追走／昨季得点王レオ・セアラが今季も開幕4戦連発6発、夏の移籍登録は9月16日まで＆【栄光の軌跡・名選手編②】守護神・曽ヶ端準(2026年8月31日)</title>
       <description>鹿島アントラーズ デイリー第39回。8月29日にアウェイ東京ヴェルディを2対0で下した鹿島は、2008年以来18シーズンぶりの開幕4連勝。第4節終了時点で勝ち点12・得失点差プラス5の2位で、同勝ち点の柏に得失点差でわずかに及ばず首位を追います。昨季9年ぶりのJ1制覇に導いた得点王レオ・セアラは今季も開幕4戦連発の6得点。今夏のJリーグ夏の移籍登録期間は例年より長く9月16日までで、鹿島が欧州で活躍する選手の獲得に動くとの報道も。次戦はあさって9月2日水曜、アウェイ水戸信用金庫スタジアムでの茨城ダービー・水戸ホーリーホック戦。栄光の軌跡・名選手編②は、地元鹿嶋出身の生え抜きで鹿島一筋23年・J1通算533試合の守護神、曽ヶ端準を取り上げます。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-31.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-31.mp3" length="3065729" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-31.mp3" length="3065729" type="audio/mpeg" />
       <pubDate>Sun, 30 Aug 2026 15:13:28 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-31.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-31.jpg" />
     </item>
     <item>
       <title>#38 昨夜アウェイ東京ヴェルディに2対0で快勝、開幕4連勝と公式戦5連勝／レオ・セアラが前半42分と後半5分に2発で開幕4戦連発、今季初のクリーンシート＆【栄光の軌跡・名選手編①】静かなる闘将・小笠原満男(2026年8月30日)</title>
       <description>鹿島アントラーズ デイリー第38回。昨夜8月29日土曜、アウェイ味の素スタジアムでのJ1第4節・東京ヴェルディ戦を2対0で制し、鹿島が開幕4連勝。天皇杯を含めれば公式戦5連勝です。得点はどちらもレオ・セアラで、前半42分に左足で先制、後半5分には左コーナーキックから右足で追加点。開幕から4試合連続ゴールとなりました。第二子の誕生を自ら祝う2発です。そして開幕3試合で6失点と課題だった守備が、この日は今季初のクリーンシート。柏も勝ったため得失点差で2位につけています。次節は9月2日水曜、アウェイ水戸信用金庫スタジアムでの茨城ダービー。栄光の軌跡は今日から新シリーズ・名選手編。第1回は岩手県大船渡市出身、1998年に鹿島トップチーム入りし、長年キャプテンとして数々のタイトルの中心にい続けた『静かなる闘将』小笠原満男を取り上げ、常勝軍団のメンタリティを振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-30_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-30_2.mp3" length="3008887" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-30_2.mp3" length="3008887" type="audio/mpeg" />
       <pubDate>Sun, 30 Aug 2026 00:08:28 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-30_2.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-30_2.jpg" />
     </item>
     <item>
       <title>#37 今日、味の素スタジアムで東京ヴェルディ戦、開幕3連勝＋天皇杯で公式戦4連勝中の鹿島がアウェイでも連勝狙う／レオ・セアラ3戦連発・鬼木監督は失点を課題視＆【栄光の軌跡・名勝負編⑫】2016年クラブW杯準々決勝、遠藤康・金崎夢生弾でアフリカ王者マメロディ・サンダウンズを2対0(2026年8月29日)</title>
       <description>鹿島アントラーズ デイリー第37回。いよいよ今日8月29日土曜、アウェイ味の素スタジアムで東京ヴェルディ戦、キックオフは午後7時。開幕からリーグ3連勝、8月26日の天皇杯2回戦もアトレチコ鈴鹿を3対0で下し公式戦4連勝中の鹿島が、敵地でも連勝を狙います。リーグ3試合で勝ち点9・得失点差プラス3。レオ・セアラは開幕3戦連発と絶好調な一方、鬼木達監督は開幕3試合6失点の守備を課題視しており、アウェイでどう締めるかが焦点。移籍市場も最終盤で、鹿島が欧州組の獲得に動くとの報道も。栄光の軌跡・名勝負編第12回は2016年クラブW杯準々決勝、12月11日にアフリカ王者マメロディ・サンダウンズを遠藤康のボレーと金崎夢生の一撃で2対0。準決勝ナシオナル戦、決勝レアル戦へと続く快進撃の第一歩を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-29_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-29_2.mp3" length="2765217" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-29_2.mp3" length="2765217" type="audio/mpeg" />
       <pubDate>Fri, 28 Aug 2026 15:34:37 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-29_2.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-29_2.jpg" />
     </item>
     <item>
       <title>#36 佐野海舟の去就に区切り、8月27日の期限越えでリヴァプール・ライプツィヒが撤退しマインツ残留の公算／元鹿島・上田綺世がフェイエノールトで2試合連発・開幕3戦2発の量産態勢＆【栄光の軌跡・名勝負編⑪】2016年クラブW杯開幕戦、途中出場の赤崎秀平・金崎夢生弾でオークランドを逆転、世界への快進撃の起点(2026年8月28日)</title>
       <description>鹿島アントラーズ デイリー第36回。元鹿島・佐野海舟(マインツ)の去就がひとつの区切りへ。マインツが移籍容認の目安としていた8月27日を越え、リヴァプールに続きライプツィヒも撤退が報じられ、6000万ユーロ・約110億円という要求額の高さから今夏のステップアップ移籍は見送り、残留の公算が大きいと現地メディアが伝えています。海外組コーナーは同じく元鹿島の上田綺世(フェイエノールト)。8月16日にダイビングヘッドで今季初弾となるクラブ歴代3位相当の得点を決め、23日のカンブール戦ではPKで2試合連発、チームは5対2で快勝。開幕3戦2発と量産態勢に入っています。栄光の軌跡・名勝負編第11回は2016年クラブW杯の開幕戦。50分にキム・デウクに先制されながら、途中出場の赤崎秀平が67分、金崎夢生が87分に決めてオークランド・シティを2対1で逆転。のちの決勝レアル戦へと続く世界への快進撃の起点でした。次戦は8月29日土曜、アウェイ味の素スタジアムで東京ヴェルディ戦。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-28.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-28.mp3" length="3748674" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-28.mp3" length="3748674" type="audio/mpeg" />
       <pubDate>Thu, 27 Aug 2026 15:17:20 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-28.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-28.jpg" />
     </item>
     <item>
       <title>#35 天皇杯2回戦・鈴鹿を3対0で撃破しベスト16へ／千田海人が加入後初弾、17歳・元砂晏翔仁ウデンバらがデビュー、佐野海舟の去就は今日8月27日がヤマ場＆【栄光の軌跡・名勝負編⑩】2018年ACLラウンド16・金満軍団の上海上港を2戦合計4対3で振り切り10年ぶりの8強(2026年8月27日)</title>
       <description>鹿島アントラーズ デイリー第35回。昨夜8月26日、ホーム・メルカリスタジアムでの天皇杯2回戦でアトレチコ鈴鹿を3対0で下し3回戦進出。鈴木優磨・レオ・セアラらをベンチに置く大幅ターンオーバーで、17歳・元砂晏翔仁ウデンバがボランチでプロ初出場、19歳・大川佑梧も左SBでデビュー。後半47分に千田海人が加入後初ゴールとなるハーフボレー、75分にチャヴリッチのPK、90分にレオ・セアラが仕上げました。海外組は元鹿島の佐野海舟の去就が今日8月27日にヤマ場、マインツが独自期限を設定し移籍金110億円規模、リヴァプールやニューカッスルが関心と報じられています。栄光の軌跡・名勝負編第10回は2018年ACLラウンド16、フッキやオスカルを擁する上海上港を2戦合計4対3で振り切った10年ぶりの8強進出。次戦は8月29日土曜、アウェイ味の素スタジアムで東京ヴェルディ戦。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-27_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-27_2.mp3" length="3004707" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-27_2.mp3" length="3004707" type="audio/mpeg" />
       <pubDate>Thu, 27 Aug 2026 04:38:52 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-27_2.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-27_2.jpg" />
     </item>
     <item>
       <title>#34 今夜いよいよ天皇杯2回戦・鈴鹿戦、鬼木監督が大幅ターンオーバー／海外組は上田綺世が2試合連発・佐野海舟の去就過熱＆【栄光の軌跡・名勝負編⑨】2018年ACL準決勝・水原三星との死闘、6対5で初のアジア決勝進出(2026年8月26日)</title>
       <description>鹿島アントラーズ デイリー第34回。8月26日水曜、今夜19時ホーム・メルカリスタジアムで天皇杯2回戦アトレチコ鈴鹿戦。開幕3連勝から中3日、鬼木達監督は大幅なメンバー入れ替えを示唆し、林晴己・津久井佳祐ら控え組にアピールの場。海外組は元鹿島の上田綺世がフェイエノールトで8月23日カンブール戦5対2の勝利にPKで2試合連続弾、開幕3戦2発と好調。佐野海舟はマインツが移籍期限を8月27日に設定と報じられ去就が過熱。栄光の軌跡・名勝負編第9回は2018年ACL準決勝、水原三星との2戦合計6対5の死闘とクラブ史上初のアジア決勝進出を振り返ります。次戦は今夜の天皇杯、29日はリーグ東京ヴェルディ戦。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-26.mp3" length="3186101" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-26.mp3" length="3186101" type="audio/mpeg" />
       <pubDate>Tue, 25 Aug 2026 15:27:23 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-26.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-26.jpg" />
     </item>
     <item>
       <title>#33 中3日で天皇杯2回戦・鈴鹿戦へ、鬼木監督が大幅ターンオーバー示唆／林晴己・津久井佳祐ら控え組にチャンス＆【栄光の軌跡・名勝負編⑧】2016年J1チャンピオンシップ準決勝・等々力で年間2位の川崎を沈めた金崎夢生の一撃(2026年8月24日)</title>
       <description>鹿島アントラーズ デイリー第33回。開幕3連勝で迎える中3日、8月26日水曜19時ホーム・メルカリスタジアムでの天皇杯2回戦アトレチコ鈴鹿戦へ。8月24日は鹿嶋で非公開トレーニング。鬼木達監督は福岡戦から大幅なメンバー入れ替えを示唆し、ここまで先発ゼロのMF林晴己、DF津久井佳祐ら控え組に出番が期待されます。鬼木監督は元日決勝復活の天皇杯へ『そこまで戦いたい』と本気度を語りました。海外組は佐野海舟の去就報道にも触れます。栄光の軌跡・名勝負編第8回は2016年クラブW杯決勝、柴崎岳の2ゴールで世界王者レアル・マドリードを追い詰めた誇りの一戦を振り返ります。次戦は26日天皇杯、29日は東京V戦。栄光の軌跡は名勝負編第8回、2016年11月23日のJリーグチャンピオンシップ準決勝。年間3位の鹿島がアウェイ等々力で年間2位の川崎フロンターレと対戦し、後半5分の金崎夢生のゴールを守り切って0対1で勝利、決勝進出を決めた一戦を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-26_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-26_2.mp3" length="3778350" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-26_2.mp3" length="3778350" type="audio/mpeg" />
       <pubDate>Mon, 24 Aug 2026 15:16:19 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-26_2.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-26_2.jpg" />
     </item>
     <item>
       <title>#32 開幕3連勝の「次の一歩」／鬼木監督が課題視した失点とバージョンアップの現在地、中3日で天皇杯・鈴鹿戦＆【栄光の軌跡・名勝負編⑦】2018年ACL準々決勝・天津権健を2戦合計5対0で下しクラブ史上初のアジア4強(2026年8月23日)</title>
       <description>鹿島アントラーズ デイリー第32回。昨夜ホーム福岡戦を3対2で制し12シーズンぶりの開幕3連勝を達成しましたが、今朝の各紙は「らしくない失点」を課題として深掘り。開幕3戦で6失点、鬼木達監督は劇的勝利を「メンタルの強さ」と評価しつつ3失点を課題視しました。背景には清水から加入したボランチ、マテウス・ブエノをチームに組み込むバージョンアップの途上、18歳・吉田湊海ら若手を試し続ける試行錯誤があります。次は中3日で天皇杯2回戦、8月26日水曜19時ホーム・メルカリスタジアムでアトレチコ鈴鹿戦。栄光の軌跡・名勝負編第7回は2016年クラブW杯準決勝、南米王者アトレティコ・ナシオナルを3対0で下しアジア勢初の決勝進出を果たした一戦を振り返ります。栄光の軌跡は名勝負編第7回、2018年AFCチャンピオンズリーグ準々決勝の天津権健戦。8月28日のホーム第1戦をレオ・シルバとセルジーニョのゴールで2対0、9月18日のアウェイ第2戦も安部裕葵のACL初ゴールと土居聖真の一撃などで3対0とし、2戦合計5対0でクラブ史上初のアジアベスト4進出を決めた一戦を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-26_3.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-26_3.mp3" length="3372929" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-26_3.mp3" length="3372929" type="audio/mpeg" />
       <pubDate>Sun, 23 Aug 2026 15:16:09 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-26_3.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-26_3.jpg" />
     </item>
     <item>
       <title>#31 ホーム福岡戦を3対2で制し開幕3連勝！レオ・セアラ3戦連発＆【栄光の軌跡・名勝負編⑥】1993年開幕・ジーコ伝説のハットトリック(2026年8月22日)</title>
       <description>鹿島アントラーズ デイリー第31回。8月22日夜のホーム・メルカリスタジアム、明治安田J1リーグ第3節でアビスパ福岡を3対2で撃破し、2014年以来12シーズンぶりの開幕3連勝を達成しました。前半31分に小川諒也のFKから先制も、元鹿島・師岡柊生の古巣弾で追いつかれ、後半60分レオ・セアラ、64分チャヴリッチの4分間連続弾で突き放して逃げ切り。レオ・セアラは開幕3戦連発でマルキーニョス以来18年ぶりの記録、リーグ18試合無敗はクラブ最長。栄光の軌跡・名勝負編第6回は1993年開幕戦、ジーコのJリーグ史上初ハットトリックと5対0の完勝を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-23_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-23_2.mp3" length="3352031" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-23_2.mp3" length="3352031" type="audio/mpeg" />
       <pubDate>Sat, 22 Aug 2026 15:13:06 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-23_2.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-23_2.jpg" />
     </item>
     <item>
       <title>#30 本日ホーム福岡戦・いよいよ試合当日／ユース3選手が来季トップ昇格＆【栄光の軌跡・名勝負編⑤】2007年最終節・奇跡の大逆転優勝(2026年8月22日)</title>
       <description>鹿島アントラーズ デイリー第30回。いよいよ本日8月22日土曜18時、ホームのメルカリスタジアムで明治安田J1リーグ第3節・アビスパ福岡戦です。福岡は開幕黒星も第2節でC大阪を3対0で完封し勢いに乗る難敵で、一部メディアは『鹿島の不敗神話崩壊か』と波乱含みの一戦に注目。開幕2連勝・勝点6の鹿島はホーム開幕戦を勝点3で締めたいところ。この日は潮来の日で夏祭り企画も。ニュースはユースの大貫琉偉(42)・平島大悟(44)・福岡勇和(43)の世代別代表3選手が来季2026-27シーズンからトップ昇格。栄光の軌跡は名勝負編第5回、2007年J1最終節、最大勝点差10を9連勝でひっくり返し最終節で初めて首位に立った奇跡の大逆転優勝を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-22_3.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-22_3.mp3" length="3664665" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-22_3.mp3" length="3664665" type="audio/mpeg" />
       <pubDate>Fri, 21 Aug 2026 15:15:17 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-22_3.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-22_3.jpg" />
     </item>
     <item>
       <title>#29 いよいよ明日ホーム福岡戦・アビスパは前節C大阪撃破の勢い＆【栄光の軌跡・名勝負編④】2016年J1チャンピオンシップ決勝・逆転の埼スタ(2026年8月21日)</title>
       <description>鹿島アントラーズ デイリー第29回。いよいよ明日8月22日土曜、ホームのメルカリスタジアムでアビスパ福岡と激突します。福岡は開幕黒星スタートも第2節でC大阪を3対0で完封し、藤本と辻岡が得点、加入のウェリック・ポポも初ゴールと勢いに乗る難敵。開幕2連勝・勝点6でリーグ上位につける鹿島は、ホーム開幕戦をどうしても勝点3で締めたい一戦です。この日はホームタウンデイズ『潮来の日』として夏祭り企画も。海外組は佐野海舟(マインツ)の去就が依然として膠着状態。栄光の軌跡は名勝負編第4回、2016年J1チャンピオンシップ決勝、金崎夢生の同点弾と決勝PKで浦和を沈めた埼スタの逆転劇を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-22_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-22_2.mp3" length="3768737" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-22_2.mp3" length="3768737" type="audio/mpeg" />
       <pubDate>Thu, 20 Aug 2026 15:20:02 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-22_2.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-22_2.jpg" />
     </item>
     <item>
       <title>#28 福岡戦へ再始動・鬼木監督が囲み取材、22日は潮来の日＆【栄光の軌跡・名勝負編③】2018年ACL初制覇・ペルセポリス戦(2026年8月19日)</title>
       <description>鹿島アントラーズ デイリー第28回。ビッグニュースの少ない一日ですが、8月18日には福岡戦へ向けてトレーニングが再開され、多くのサポーターが見守る中、鬼木達監督がメディアの囲み取材に応じました。開幕2連勝・勝点6でリーグ3位につける鹿島は、22日土曜18時からホームのメルカリスタジアムでアビスパ福岡と対戦。この日はホームタウンデイズ『潮来の日』として開催され、縁日企画やU18ワンコイン(500円)も。栄光の軌跡は名勝負編第3回、9月開幕のACLエリートにちなみ、2018年のアジア・チャンピオンズリーグ初制覇、決勝ペルセポリス戦を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-20.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-20.mp3" length="3589850" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-20.mp3" length="3589850" type="audio/mpeg" />
       <pubDate>Wed, 19 Aug 2026 15:41:06 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-20.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-20.jpg" />
     </item>
     <item>
       <title>#27 ACLエリート組み合わせ決定！ホームに全北現代・浦項、東南アジア遠征は3度＆【栄光の軌跡・名勝負編②】2016年クラブW杯決勝・レアル戦(2026年8月19日)</title>
       <description>鹿島アントラーズ デイリー第27回。8月18日クアラルンプールで行われたACLエリート2026-27リーグステージの抽選会で、鹿島が戦う8クラブが決定。ホームのメルカリスタジアムには全北現代、ニューカッスル・ジェッツ、浦項スティーラース、ラチャブリーを迎え、アウェイではブリーラム・ユナイテッド、大田ハナシチズン、ポート、コンアン・ハノイと対戦します。韓国の強豪2つをホームで迎える一方、東南アジア遠征は3度という過酷な日程に。中国勢との対戦はなし。リーグステージは9月14日開幕、2027年2月17日まで8試合、上位8クラブがラウンド16へ進み決勝は2027年5月1日です。次節は22日ホーム福岡戦(潮来の日)。栄光の軌跡は名勝負編第2回、2016年クラブワールドカップ決勝、レアル・マドリードとの死闘を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-19.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-19.mp3" length="5825141" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-19.mp3" length="5825141" type="audio/mpeg" />
       <pubDate>Wed, 19 Aug 2026 05:54:48 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-19.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-19.jpg" />
     </item>
     <item>
       <title>#26 本日ついにACLエリート抽選会・鹿島はポット1、佐野海舟の去就は膠着＆【栄光の軌跡・名勝負編①】2016年クラブW杯準決勝(2026年8月18日)</title>
       <description>鹿島アントラーズ デイリー第26回。本日8月18日、いよいよACLエリート2026-27のリーグステージ抽選会が日本時間17時からクアラルンプールで行われます。拡大された新方式で東地区16チーム、鹿島は最上位のポット1。同国対戦を避けて8試合を戦い、上位8チームが決勝トーナメントへ。日本勢は史上最多5クラブが参戦します。移籍市場では佐野海舟(マインツ)の去就が膠着状態で、現時点で具体的な交渉はなく、マインツは安売りを検討せず27日の独自期限を見据える構え。次節は22日ホーム福岡戦(潮来の日)。栄光の軌跡は新章・名勝負編の第1回、2016年クラブW杯準決勝・アトレティコ・ナシオナル戦を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-18_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-18_2.mp3" length="3954355" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-18_2.mp3" length="3954355" type="audio/mpeg" />
       <pubDate>Tue, 18 Aug 2026 00:12:08 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-18_2.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-18_2.jpg" />
     </item>
     <item>
       <title>#25 背番号2と共闘・安西幸輝がゴール裏へ挨拶、上田綺世1ゴール1アシスト＆【栄光の軌跡㉑】2025年・9年ぶりのJ1制覇(2026年8月17日)</title>
       <description>鹿島アントラーズ デイリー第25回。名古屋戦の試合前、イレブン全員が安西幸輝の背番号2のTシャツでウォーミングアップ。本人もゴール裏のサポーターへ挨拶し、スローガン共闘を体現しました。海外組はフェイエノールト上田綺世が16日のゴーアヘッド・イーグルス戦で今季初ゴールを含む1ゴール1アシスト(試合は2対2)。18日のACLエリート抽選会、22日ホーム福岡戦(潮来の日)の予定も。栄光の軌跡は第21回、悲願の2025年・9年ぶり9度目のJ1制覇を大幅拡大版で。9年間の雌伏、鬼木達監督の就任、レオ・セアラと鈴木優磨のダブルエース、離脱者の穴を埋めたエウベル・小川諒也・千田海人、ホーム柏戦の松村優太弾とアウェイ京都戦の鈴木優磨弾、3万7079人の最終節、早川友基のMVPと史上初の2クラブJ1制覇まで、たっぷり振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-17_5.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-17_5.mp3" length="10850682" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-17_5.mp3" length="10850682" type="audio/mpeg" />
       <pubDate>Sun, 16 Aug 2026 17:28:04 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-17_5.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-17_5.jpg" />
     </item>
     <item>
       <title>#24 特別編・ACLエリート徹底解説!18日抽選会＆【栄光の軌跡⑳】2018年アジア初制覇(2026年8月16日)</title>
       <description>鹿島アントラーズ デイリー特別編。8月18日(火)日本時間17時、マレーシア・クアラルンプールで行われるACLエリート2026-27リーグステージ抽選会を前に、複雑な新方式を丸ごと解説します。トピック: 24→32クラブへの拡大と東西16ずつの構成/グループステージ廃止とスイス方式(8試合・全部違う相手・ホーム4アウェイ4)/4つのポットと鹿島のポット1入り/同国対決を避けるカントリープロテクション/東地区の対戦候補11クラブ/上位8クラブがラウンド16へ/準々決勝以降はサウジアラビア集中開催のファイナルズ/2027年5月1日の決勝まで続く日程。締めは【栄光の軌跡⑳】2018年ACL初制覇、大岩剛監督とペルセポリスとの決勝。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-16_6.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-16_6.mp3" length="7804595" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-16_6.mp3" length="7804595" type="audio/mpeg" />
       <pubDate>Sun, 16 Aug 2026 10:56:13 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-16_6.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-16_6.jpg" />
     </item>
     <item>
       <title>#23 ホーム開幕・名古屋戦、関川郁万の98分決勝弾で2対1・開幕2連勝＆【栄光の軌跡⑲】2016年天皇杯制覇(2026年8月16日)</title>
       <description>鹿島アントラーズ デイリー第23回。8月15日のホーム開幕戦・J1第2節名古屋戦(メルカリスタジアム)を2対1で制し開幕2連勝。前半22分レオ・セアラがヤン・マテウスのクロスから先制、後半に原輝綺の同点弾を許すも、90分プラス8分にチャヴリッチ獲得のCK・柴崎岳のキックから関川郁万が押し込み決勝点。開幕戦に続く2試合連続の終了間際弾でした。先制アシスト直後にヤン・マテウスが右太もも裏で担架交代の一幕も。栄光の軌跡⑲は2016年天皇杯(2017年元日・対川崎、延長ファブリシオ弾で5度目の戴冠)。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-16_3.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-16_3.mp3" length="3077014" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-16_3.mp3" length="3077014" type="audio/mpeg" />
       <pubDate>Sun, 16 Aug 2026 04:20:03 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-16_3.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-16_3.jpg" />
     </item>
     <item>
       <title>#22 ついにホーム開幕・名古屋戦当日、ミシャ名古屋を迎え撃つ＆【栄光の軌跡⑱】2016年Jリーグ年間制覇(2026年8月15日)</title>
       <description>鹿島アントラーズ デイリー第22回。いよいよ今日8月15日土曜18時、ホーム開幕のJ1第2節・名古屋グランパス戦がメルカリスタジアムで行われます。開幕戦・横浜FM戦の4対3大逆転の勢いをホームでも示し開幕2連勝を狙う一戦。会場では『ぴあスペシャルマッチ〜NEXT TENも共に〜』が開催され先着2万名にオリジナルステッカーがプレゼントされます。相手は今季から攻撃的ポゼッションを掲げるミハイロ・ペトロヴィッチ監督の名古屋。開幕3失点の守備をどう締めるかが鍵です。常設コーナー栄光の軌跡は第18回、2016年Jリーグ年間制覇を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-15.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-15.mp3" length="3442728" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-15.mp3" length="3442728" type="audio/mpeg" />
       <pubDate>Fri, 14 Aug 2026 15:58:42 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-15.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-15.jpg" />
     </item>
     <item>
       <title>#21 いよいよ明日ホーム開幕・名古屋戦、鬼木監督『自分たちの力を出す』＆【栄光の軌跡⑰】2015年ナビスコカップ制覇(2026年8月14日)</title>
       <description>鹿島アントラーズ デイリー第21回。いよいよ明日8月15日土曜18時、ホーム開幕戦のJ1第2節・名古屋グランパス戦がメルカリスタジアムで行われます。開幕戦・横浜FM戦の4対3大逆転で得た勢いをホームでも示し、開幕2連勝を狙います。チケットは実質完売で3万人超の大観衆が見込まれるなか、鬼木達監督が語った『相手よりも自分たちの力を出すこと』という姿勢を紹介。元鹿島の海外組として佐野海舟の移籍報道も一言添えます。常設コーナー栄光の軌跡は第17回、2015年ヤマザキナビスコカップ制覇。10月31日の埼玉スタジアム、ガンバ大阪を3対0で下し小笠原満男が2度目のMVPに輝いたリーグカップ通算6回目の戴冠を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-14.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-14.mp3" length="3216194" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-14.mp3" length="3216194" type="audio/mpeg" />
       <pubDate>Thu, 13 Aug 2026 16:05:33 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-14.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-14.jpg" />
     </item>
     <item>
       <title>#20 名古屋戦まであと2日＆【栄光の軌跡⑯】2012年ナビスコカップ連覇、20歳・柴崎岳の延長弾2発(2026年8月13日)</title>
       <description>鹿島アントラーズ デイリー第20回。ホーム開幕・名古屋グランパス戦(8月15日土曜18時・メルカリスタジアム)まであと2日、開幕の横浜FM戦に続き2戦連続の超満員が見込まれるなか、新規ニュースの乏しいこの日は常設コーナー栄光の軌跡を主役に。第16回は2012年11月3日、国立競技場での第20回ナビスコカップ決勝。清水エスパルスと延長戦にもつれ、当時20歳の柴崎岳が延長で2ゴールを叩き込み2対1で勝利。前年に続くナビスコ連覇(2年連続・通算5回目)を、ジェフ千葉以来の大会連覇として達成した若き常勝軍団の物語を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-13.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-13.mp3" length="3260498" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-13.mp3" length="3260498" type="audio/mpeg" />
       <pubDate>Wed, 12 Aug 2026 15:36:38 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-13.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-13.jpg" />
     </item>
     <item>
       <title>#19 柴崎岳の10番、開幕戦の至高スルーパスがSNSで話題＆【栄光の軌跡⑮】2011年ナビスコカップ制覇(2026年8月12日)</title>
       <description>鹿島アントラーズ デイリー第19回。開幕戦・横浜FM戦の4-3大逆転を演出した背番号10・柴崎岳の決勝アシスト=至高のスルーパスが、SNSで『あのタイミングで出すのか』『セクシーすぎる』と話題に。ラインを上げる相手最終ラインとチャヴリッチの動きを見極めたベテランの視野と技術を振り返ります。次戦は8月15日土曜18時、ホーム開幕・名古屋戦(メルカリスタジアム、ぴあスペシャルマッチ開催)。常設コーナー栄光の軌跡は第15回、2011年ヤマザキナビスコカップ制覇。国立での浦和との決勝、延長で21歳・大迫勇也が決めMVPに輝いたクラブ4度目の戴冠を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-12.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-12.mp3" length="3204910" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-12.mp3" length="3204910" type="audio/mpeg" />
       <pubDate>Tue, 11 Aug 2026 15:30:54 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-12.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-12.jpg" />
     </item>
     <item>
       <title>#18 【栄光の軌跡⑭】2010年天皇杯・元日の国立で野沢拓也の決勝弾、クラブ4度目の戴冠(2026年8月11日)</title>
       <description>鹿島アントラーズ デイリー第18回。5日後の8月15日ホーム開幕・名古屋戦(メルカリスタジアム)を前に、新規ニュースの乏しいこの日は常設コーナー栄光の軌跡を主役に。第14回は2011年元日、国立競技場での第90回天皇杯決勝。オズワルド・オリヴェイラ監督のもと清水エスパルスと激突し、後半77分の野沢拓也の芸術的な直接フリーキックが決勝点となり2対1で勝利。リーグ4連覇を逃したシーズンを元日のタイトルで締めくくった、クラブ通算4回目の天皇杯制覇を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-11.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-11.mp3" length="3170637" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-11.mp3" length="3170637" type="audio/mpeg" />
       <pubDate>Mon, 10 Aug 2026 15:37:50 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-11.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-11.jpg" />
     </item>
     <item>
       <title>#17 ホーム開幕・名古屋戦プレビュー＆ぴあスペシャルマッチ＆【栄光の軌跡⑬】2009年J1史上初の3連覇(2026年8月10日)</title>
       <description>鹿島アントラーズ デイリー第17回。開幕戦の余韻が残るなか、次戦のホーム開幕・名古屋グランパス戦(8月15日土曜18時・メルカリスタジアム、J1第2節)をプレビュー。クラブパートナーぴあの協力による『ぴあスペシャルマッチ〜NEXT TENも共に〜』、先着2万名へのチケット型オリジナルステッカー配布もご紹介します。常設コーナー栄光の軌跡は第13回、2009年J1制覇。最終節・浦和戦で内田篤人のクロスから興梠慎三が決勝点、1対0で勝ち切りJリーグ史上初の3連覇(通算7回目の優勝)を達成した、常勝軍団の底力を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-10.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-10.mp3" length="3694340" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-10.mp3" length="3694340" type="audio/mpeg" />
       <pubDate>Sun, 09 Aug 2026 15:16:41 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-10.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-10.jpg" />
     </item>
     <item>
       <title>#16 開幕戦の裏側に迫る！鬼木監督のメンタル哲学＆18歳・吉田湊海の開幕スタメン抜擢＆【栄光の軌跡⑫】2008年J1連覇(2026年8月9日)</title>
       <description>鹿島アントラーズ デイリー第16回。劇的な開幕戦逆転勝利から一夜明け、その裏側に迫ります。鬼木達監督が語る勝負強さの源泉となる厳しく長い練習と『鹿島のメンタルの強さ』、内田篤人に次ぐクラブ史上2位の年少記録で開幕スタメンを飾った18歳・吉田湊海の悔しさと柴崎岳の声かけ、決勝弾を演出したベテランの存在感を紹介。次節は8月15日ホーム名古屋戦。常設コーナー栄光の軌跡第12回は、最終節で札幌を1-0で下し2度目の連覇を達成した2008年J1制覇を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-09.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-09.mp3" length="4085177" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-09.mp3" length="4085177" type="audio/mpeg" />
       <pubDate>Sat, 08 Aug 2026 15:15:34 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-09.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-09.jpg" />
     </item>
     <item>
       <title>#15 開幕戦劇的大逆転！鹿島4-3横浜FM＆【栄光の軌跡⑪】2007年J1奇跡の最終節逆転優勝(2026年8月8日)</title>
       <description>鹿島アントラーズ デイリー第15回。2026-27シーズンJ1開幕戦、鹿島は7日夜に国立競技場(MUFGスタジアム)で横浜F・マリノスと対戦。1-3のビハインドを跳ね返し、レオ・セアラの2ゴールと途中出場チャヴリッチの土壇場2発でアディショナルタイムに4-3と大逆転、王者らしい勝負強さで白星発進しました。横浜の16歳・三井寺眞によるJ史上2番目の年少ゴールにも触れます。常設コーナー「栄光の軌跡」第11回は2007年J1制覇。オリヴェイラ監督1年目、終盤9連勝から最終節で首位浦和を逆転した奇跡の戴冠を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-08.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-08.mp3" length="3431443" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-08.mp3" length="3431443" type="audio/mpeg" />
       <pubDate>Fri, 07 Aug 2026 15:26:46 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-08.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-08.jpg" />
     </item>
     <item>
       <title>#14 いよいよ開幕戦！マリノス戦キックオフ＆【栄光の軌跡⑩】2002年ナビスコカップ制覇(2026年8月7日)</title>
       <description>鹿島アントラーズ デイリー第14回。ついに開幕当日。今夜7時25分、国立競技場(MUFGスタジアム)で2026/27シーズンJ1がキックオフし、鹿島はオープニングマッチで横浜F・マリノスと対戦します。約2500発の花火やスペシャルアンバサダー・トラビスジャパンのハーフタイムライブなど特別な開幕セレモニーの情報、そしてJリーグ連覇とACLE制覇を掲げる鬼木達監督の決意をお伝えします。常設コーナー「栄光の軌跡」第10回は2002年ナビスコカップ決勝。国立での浦和レッズ戦を小笠原満男の決勝弾で1対0と制し、3年ぶりの制覇を果たした一戦を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-07.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-07.mp3" length="3023515" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-07.mp3" length="3023515" type="audio/mpeg" />
       <pubDate>Thu, 06 Aug 2026 15:27:49 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-07.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-07.jpg" />
     </item>
     <item>
       <title>#13 明日いよいよ開幕！マリノス戦前日会見＆【栄光の軌跡⑨】2001年J1連覇達成(2026年8月6日)</title>
       <description>鹿島アントラーズ デイリー第13回。明日8月7日19時25分キックオフの横浜F・マリノス戦に向けた前日記者会見の模様と最終決定事項をお届け。常設コーナー「栄光の軌跡」第9回は、2001年J1リーグ年間制覇。磐田との激闘を制しリーグ連覇を果たしたシーズンを振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-06.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-06.mp3" length="1700257" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-06.mp3" length="1700257" type="audio/mpeg" />
       <pubDate>Wed, 05 Aug 2026 16:02:36 +0000</pubDate>
     </item>
     <item>
       <title>#12 開幕まであと2日！予想スタメン＆【栄光の軌跡⑧】2000年天皇杯制覇・前人未到の三冠達成(2026年8月5日)</title>
       <description>鹿島アントラーズ デイリー第12回。8月7日マリノス戦まであと2日。予想スタメンと注目マッチアップを解説。常設コーナー「栄光の軌跡」第8回は、2000年天皇杯決勝。清水エスパルスとの激闘を延長Vゴールで制し、日本サッカー史上初の国内三冠（リーグ・ナビスコ・天皇杯）を達成した伝説の一戦を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-05.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-05.mp3" length="2087287" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-05.mp3" length="2087287" type="audio/mpeg" />
       <pubDate>Wed, 05 Aug 2026 16:01:53 +0000</pubDate>
     </item>
     <item>
       <title>#11 8月7日開幕戦マリノス戦への仕上がり＆【栄光の軌跡⑦】2000年J1リーグ年間王者・国内初三冠への道(2026年8月4日)</title>
       <description>鹿島アントラーズ デイリー第11回。8月7日のMUFGスタジアムでの横浜F・マリノスとのリーグ開幕戦まであと3日。チームの調整状況と決意をお伝えします。常設コーナー「栄光の軌跡」第7回は、2000年J1リーグ年間王者。ナビスコカップ制覇に続き、サントリーステージ王者として迎えたチャンピオンシップでの激闘と、史上初の国内主要タイトル三冠達成へ向けた足跡を振り返ります。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-04.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-04.mp3" length="2758947" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-04.mp3" length="2758947" type="audio/mpeg" />
       <pubDate>Wed, 05 Aug 2026 16:01:02 +0000</pubDate>
     </item>
     <item>
       <title>#10 鬼木監督らが語る開幕への思い＆【栄光の軌跡⑥】2000年ナビスコカップ制覇(2026年8月3日)</title>
       <description>鹿島アントラーズ デイリー第10回。8月2日にクラブ公式から発表された2つのメディア出演情報を紹介。テレビ東京「FOOT×BRAIN+ONE」では柴崎岳・田川亨介・鬼木達監督、NHK BS「Jリーグタイム」開幕直前スペシャルでは鬼木監督のインタビューが放送されました。常設コーナー「栄光の軌跡」第6回は、2000年ナビスコカップ決勝。国立で川崎フロンターレを2対0で下し、中田浩二の左足ボレーとビスマルクのPKで3年ぶり2度目の大会制覇を果たした一戦を振り返ります。8月7日19時25分、MUFGスタジアムでの横浜F・マリノスとのリーグ開幕戦まであと4日です。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-03.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-03.mp3" length="3254229" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-03.mp3" length="3254229" type="audio/mpeg" />
       <pubDate>Sun, 02 Aug 2026 15:06:59 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-03.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-03.jpg" />
     </item>
     <item>
       <title>#9 【栄光の軌跡⑤】1998年、鹿島が2度目のリーグ年間王者に(2026年8月2日)</title>
       <description>鹿島アントラーズ デイリー第9回。直近24時間に大きな新規ニュースがないため、常設コーナー「栄光の軌跡」第5回を主役にお届け。テーマは1998年、鹿島がクラブ史上2度目のリーグ年間王者に輝いたシーズン。2ステージ制のなか1stステージは名波浩・中山雅史を擁するジュビロ磐田、鹿島はゼ・マリオ監督のもと2ndステージを制覇。11月21日・28日のサントリーチャンピオンシップで磐田を両戦2対1で下し、第2戦はビスマルクが1ゴール1アシスト。2ndステージから翌年にかけての16連勝も記録。冒頭では開幕まであと5日、8月7日・国立の横浜F・マリノス戦(24年ぶりゴールデン地上波生中継)にも触れました。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-02_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-02_2.mp3" length="3399679" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-02_2.mp3" length="3399679" type="audio/mpeg" />
       <pubDate>Sat, 01 Aug 2026 18:11:49 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-02_2.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-02_2.jpg" />
     </item>
     <item>
       <title>#8 【栄光の軌跡④】1997年、鹿島が初の天皇杯を掲げた元日(2026年8月1日)</title>
       <description>鹿島アントラーズ デイリー第8回。直近24時間に大きな新規ニュースがないため、常設コーナー「栄光の軌跡」第4回を主役にお届け。テーマは1997年、クラブ史上初の天皇杯制覇。1998年元日・国立での第77回天皇杯決勝で横浜フリューゲルスを3対0で下し、増田忠俊・マジーニョ・柳沢敦が得点。1997年は1stステージ・ナビスコ・天皇杯の複数制覇で「史上最強」と称された黄金期。冒頭では元鹿島・上田綺世(フェイエノールト)へのエバートンのオファー拒否やレアル関心報道など、この夏の去就の噂も紹介。リーグ再開は8月7日、国立の横浜F・マリノス戦。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-01.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-01.mp3" length="3171055" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-08-01.mp3" length="3171055" type="audio/mpeg" />
       <pubDate>Fri, 31 Jul 2026 15:14:12 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-01.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-08-01.jpg" />
     </item>
     <item>
       <title>#7 濃野公人がMLS・DCユナイテッドへ完全移籍!古巣の恩師ヴァイラー監督のもとへ(2026年7月31日)</title>
       <description>鹿島アントラーズ最新情報をお届けするデイリーポッドキャスト第7回。トピック: DF濃野公人がアメリカMLSのDCユナイテッドへ完全移籍(3年契約+1年オプション)、率いるのは元鹿島のレネ・ヴァイラー監督、日本代表と将来の欧州挑戦を見据えた決断/24年のルーキーで9得点・新人ベストイレブン、25年の9年ぶり9度目J1制覇にも貢献/元鹿島・佐野海舟(マインツ)は7月30日の英報道で三笘薫所属ブライトンやセリエA移籍説が浮上(移籍金約111億円がネック)/常設コーナー栄光の軌跡③は1997年、クラブ初のカップタイトル・ナビスコカップ制覇。開幕は8月7日、国立の横浜F・マリノス戦。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-31.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-31.mp3" length="3242108" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-31.mp3" length="3242108" type="audio/mpeg" />
       <pubDate>Thu, 30 Jul 2026 18:49:12 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-31.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-31.jpg" />
     </item>
     <item>
       <title>#6 【栄光の軌跡②】1996年、鹿島が初の年間王者に(2026年7月30日)</title>
       <description>鹿島アントラーズ最新情報をお届けするデイリーポッドキャスト第6回。直近24時間に大きな新規ニュースがなかったため、常設コーナー「栄光の軌跡」の第2回を主役にお届け。テーマは1996年、鹿島がクラブ史上初めて手にした「年間王者」の称号。この年だけ採用された1シーズン制(全30節・チャンピオンシップなし)、開幕8連勝で独走した横浜フリューゲルスを追い上げての大逆転、就任1年目のジョアン・カルロス監督、レオナルド・ジョルジーニョ・本田泰人ら主役たちを振り返ります。開幕は8月7日、国立での横浜F・マリノス戦(24年ぶり地上波ゴールデン生中継)。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-30.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-30.mp3" length="3496645" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-30.mp3" length="3496645" type="audio/mpeg" />
       <pubDate>Wed, 29 Jul 2026 15:13:27 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-30.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-30.jpg" />
     </item>
     <item>
       <title>#5 【栄光の軌跡①】ジーコ伝説のハットトリック、1993年サントリーシリーズ制覇(2026年7月29日)</title>
       <description>本日は新ニュースが少ないため、新企画「栄光の軌跡」第1回をお届け。鹿島の記念すべきクラブ初タイトル、1993年Jリーグ1stステージ(サントリーシリーズ)制覇を振り返ります。開幕戦・対名古屋でのジーコによるJリーグ第1号ハットトリック(5対0)、常勝軍団の礎、そして8月7日の開幕・横浜FM戦への展望まで。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-29_2.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-29_2.mp3" length="3047339" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-29_2.mp3" length="3047339" type="audio/mpeg" />
       <pubDate>Wed, 29 Jul 2026 05:26:31 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-29_2.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-29_2.jpg" />
     </item>
     <item>
       <title>#4 上田綺世にエバートン猛アタック!フェイエは拒否、続く海外組の争奪戦(2026年7月28日)</title>
       <description>鹿島アントラーズの最新情報をお届けするデイリーポッドキャスト第4回。トピック: 元鹿島・上田綺世(フェイエノールト)にプレミアリーグのエバートンが約43億円の獲得オファーを提示するもフェイエは拒否、移籍金は約65億円を要求との報道/ファン・ブロンクホルスト監督は残留を希望、スペインのレアル・マドリードの関心報道も/上田の契約は2028年夏まで/元鹿島・佐野海舟(マインツ)もリバプールを中心に争奪戦が継続中。新シーズン開幕は8月7日、国立での横浜F・マリノス戦。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-28.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-28.mp3" length="2952462" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-28.mp3" length="2952462" type="audio/mpeg" />
       <pubDate>Mon, 27 Jul 2026 15:15:15 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-28.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-28.jpg" />
     </item>
     <item>
       <title>#3 佐野海舟にリバプール急接近!渋谷でネクストテン開催(2026年7月27日)</title>
       <description>鹿島アントラーズの最新情報をお届けするデイリーポッドキャスト第3回。トピック: 元鹿島・佐野海舟(マインツ)の獲得レースでリバプールが先行し代理人と個人条件を交渉、英メディアは個人合意に近いと報道/マインツは移籍金6000万ユーロ(約111億円)以下を拒否、アーセナル・ドルトムント・トッテナムも接触との報/2026-27開幕記念イベント『ネクストテン』が渋谷サクラステージで今週開催、3D没入映像・新ユニフォーム特別展示・高さ2.2mのシャーレのオブジェが登場。開幕は8月7日、国立での横浜F・マリノス戦。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-27.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-27.mp3" length="3277217" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-27.mp3" length="3277217" type="audio/mpeg" />
       <pubDate>Sun, 26 Jul 2026 15:12:00 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-27.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-27.jpg" />
     </item>
     <item>
       <title>#2 夏の移籍市場が活発!マテウス獲得・広瀬復帰、新主将は柴崎岳(2026年7月26日)</title>
       <description>鹿島アントラーズの最新情報をお届けするデイリーポッドキャスト第2回。トピック: 元横浜FMのヤン・マテウスを完全移籍で獲得し荒木退団の穴を補強/DF濃野公人が海外移籍を前提にチーム離脱/広瀬陸斗がヴィッセル神戸から約2年半ぶりに鹿島復帰/新キャプテンは柴崎岳が続投、副将にレオ・セアラら4人、選手会長は早川友基/元鹿島・佐野海舟(マインツ)の市場価値が約90億円突破との報道ほか。開幕戦は8月7日、国立での横浜F・マリノス戦。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-26.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-26.mp3" length="3321520" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-26.mp3" length="3321520" type="audio/mpeg" />
       <pubDate>Sat, 25 Jul 2026 15:10:40 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-26.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-26.jpg" />
     </item>
     <item>
       <title>#1 大岩剛さんが日本代表監督に!開幕へ向かう鹿島の今(2026年7月25日)</title>
       <description>鹿島アントラーズの最新情報をお届けするデイリーポッドキャスト、記念すべき第1回。トピック: 大岩剛氏が森保監督の後任として日本代表監督に就任決定/都内でキックオフパーティー開催、鬼木監督が連覇とACLE制覇を宣言/荒木遼太郎がシント=トロイデンへ完全移籍/安西幸輝・樋口雄太が負傷離脱/ユースがFC東京U-18に快勝/福岡戦チケット情報ほか。</description>
       <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-25.mp3</guid>
-      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-25.mp3" length="3606986" type="audio/mpeg"/>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-07-25.mp3" length="3606986" type="audio/mpeg" />
       <pubDate>Fri, 24 Jul 2026 16:59:32 +0000</pubDate>
-      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-25.jpg"/>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-07-25.jpg" />
     </item>
   </channel>
 </rss>
