@@ -20,6 +20,14 @@ logger = logging.getLogger(__name__)
 
 PRONUNCIATION_DICT_PATH = config.BASE_DIR / "pronunciation_dict.json"
 
+# Fish Audio(無料枠)がHTTP 200のまま途中で打ち切った音声を返すことがある。
+# 128kbps MP3で日本語TTSを喋らせると1文字あたり概ね2000バイト前後になるため、
+# ある程度以上の長さのチャンクに対して極端に小さい音声はほぼ確実に途切れている。
+# 誤検知を避けるため十分に低い閾値(1文字=500バイト)で判定し、
+# 該当したらRetryableErrorにして再試行する(全滅すれば配信せずに失敗させる)。
+MIN_BYTES_PER_CHAR = 500
+TRUNCATION_CHECK_MIN_CHARS = 30
+
 
 def apply_pronunciation_dict(text: str) -> str:
     """読み間違えやすい語を読み仮名に置換する(長い語から優先して適用)。"""
@@ -84,7 +92,20 @@ class FishAudioGenerator(AudioGenerator):
                 f"Fish Audio API {response.status_code}: {response.text[:200]}"
             )
         response.raise_for_status()
-        return response.content
+        audio = response.content
+
+        # 途切れ検出: 十分な長さのテキストに対して音声が極端に小さければ、
+        # APIが不完全な音声を返したとみなして再試行する。
+        stripped = text.strip()
+        if (
+            len(stripped) >= TRUNCATION_CHECK_MIN_CHARS
+            and len(audio) < len(stripped) * MIN_BYTES_PER_CHAR
+        ):
+            raise RetryableError(
+                "Fish Audio が不完全な音声を返しました "
+                f"(テキスト{len(stripped)}字に対し音声{len(audio) / 1024:.1f}KB)"
+            )
+        return audio
 
     @staticmethod
     def _split_text(text: str, chunk_size: int) -> list[str]:
