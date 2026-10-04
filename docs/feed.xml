@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 03 Oct 2026 15:12:19 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 15:17:58 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#74 代表ウィークの中断は今週末まで、リーグ再開は10月9日ホーム・ガンバ大阪戦／【栄光の軌跡・名選手編㊲】2014年加入・外国人初のJリーグベストヤングプレーヤー、サイドを切り裂いた快速ブラジリアンのカイオ（2026年10月5日）</title>
+      <description>鹿島アントラーズ デイリー第74回。Jリーグは代表ウィークで中断中、リーグ再開は今週末10月9日(金)ホーム・メルカリスタジアムでのガンバ大阪戦。試合のないこの週は鹿島の歴史を振り返る回に。締めの栄光の軌跡・名選手編㊲は、日本の高校を経て2014年に鹿島へ加入し、爆発的なスピードでサイドを切り裂いた快速ブラジリアンのカイオ。加入1年目に外国人選手として初のJリーグ・ベストヤングプレーヤー賞を受賞、J1通算78試合23ゴールを残し、2016年夏にアラブ首長国連邦の強豪アル・アインへ完全移籍。のちに同国の国籍を取得して代表にも選ばれた、タイトル奪回前夜の鹿島を彩ったアタッカーを紹介する。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-10-05.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-10-05.mp3" length="3486614" type="audio/mpeg"/>
+      <pubDate>Sun, 04 Oct 2026 15:17:58 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-10-05.jpg"/>
+    </item>
     <item>
       <title>#73 代表ウィーク中断中、鹿島の守護神・早川友基が日本代表に選出され日の丸を背負う／リーグ再開は10月9日ホーム・ガンバ大阪戦／【栄光の軌跡・名選手編㊱】2016年に湘南から加入し初年度に二冠、ボランチからサイドバックまでこなした万能の労働者・永木亮太（2026年10月4日）</title>
       <description>鹿島アントラーズ デイリー第73回。Jリーグは代表ウィークで中断中、リーグ再開は10月9日(金)ホーム・ガンバ大阪戦。試合のないこの週は代表の舞台へ目を向け、昨季の9年ぶりJ1制覇を導きリーグMVPに輝いた鹿島の守護神・早川友基が今回の日本代表に選出され、代表ウィークを日の丸を背負って戦っていることを紹介。締めの栄光の軌跡・名選手編㊱は、川崎下部組織・中央大を経て2011年に湘南でプロ入り、2016年に鹿島へ完全移籍すると初年度にJ1と天皇杯の二冠に貢献、ボランチから両サイドバックまでこなす万能性で約6シーズン常勝軍団を支え2018年ACL初制覇にも貢献、2021年末に古巣・湘南へ復帰した永木亮太。</description>
