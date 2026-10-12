@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Mon, 12 Oct 2026 00:07:30 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 15:24:54 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#82 いよいよ今夜21時15分、アウェー・コンアン・ハノイ戦キックオフ／直前情報と見どころ／【栄光の軌跡・名選手編㊺】現在の守護神、2025年J1最優秀選手・早川友基（2026年10月13日）</title>
+      <description>鹿島アントラーズ デイリー第82回。いよいよ今夜、10月13日(火)日本時間21時15分キックオフ。アウェー・ハノイのハンダイ・スタジアムで、ACLエリート・リーグステージ第2節、ベトナム王者コンアン・ハノイ戦。中継はDAZN。第1節で鹿島は7対1、ハノイはG大阪に1対4。国内では独走王者ながら今季は補強禁止処分が報じられる相手の本拠地で、連勝を狙う鹿島の直前の見どころを整理。栄光の軌跡・名選手編㊺は、昨日の名守護神クォン・スンテに続き、現在の鹿島ゴールを守る男、2025年にGKとして15年ぶりのJ1最優秀選手に輝いた早川友基を紹介する。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-10-13.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-10-13.mp3" length="3262170" type="audio/mpeg"/>
+      <pubDate>Mon, 12 Oct 2026 15:24:54 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-10-13.jpg"/>
+    </item>
     <item>
       <title>#81 いよいよ明日13日ACLエリート第2節、アウェー・コンアン・ハノイ戦／鹿島側の視点と連戦のメンバー起用／【元鹿島・海外組】ベルギーで輝く荒木遼太郎／【栄光の軌跡・名選手編㊹】2018年アジア初制覇の守護神クォン・スンテ（2026年10月12日）</title>
       <description>鹿島アントラーズ デイリー第81回。明日10月13日(火)日本時間21時15分、アウェーでACLエリート・リーグステージ第2節、ベトナム王者コンアン・ハノイ戦(中継DAZN)。対戦相手の分析は前回詳報したため、今回は鹿島側の視点で、過密連戦に向けた鬼木監督のメンバー起用に注目。元鹿島・海外組コーナーは、この夏ベルギーのシント＝トロイデンへ完全移籍し、リーグ初先発のアントワープ戦で先制ボレーを決めた荒木遼太郎を紹介。栄光の軌跡・名選手編㊹は、2017年に全北現代から加入し2018年のアジア初制覇を支えた守護神、現GKコーチのクォン・スンテを取り上げる。</description>
