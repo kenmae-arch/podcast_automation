@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Sat, 17 Oct 2026 00:06:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 00:07:33 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#87 ホームで長崎に2対0完封、公式戦3連勝／レオ・セアラ3戦連発で得点王単独首位の今季12点目／【栄光の軌跡・名選手編㊿】2点目を演出した期待の若手MF・林晴己（2026年10月18日）</title>
+      <description>鹿島アントラーズ デイリー第87回。10月17日ホームのメルカリスタジアムでの明治安田J1リーグ第10節は、V・ファーレン長崎に2対0で完封勝利。開始十数秒のPK獲得から前半2分にレオ・セアラ、同5分に林晴己のスルーパスからチャヴリッチが決める電光石火の2得点でリーグ2連勝・公式戦3連勝。レオ・セアラは3試合連続ゴールで今季12点目、得点ランク単独首位に浮上。終盤は植田主将のスーパークリアも光った。次節は10月21日アウェー京都戦。栄光の軌跡・名選手編㊿は、2点目を演出した山口・高川学園→明治大出身の期待の若手MF・林晴己を紹介。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-10-18.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-10-18.mp3" length="3858643" type="audio/mpeg"/>
+      <pubDate>Sun, 18 Oct 2026 00:07:33 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-10-18.jpg"/>
+    </item>
     <item>
       <title>#86 本日ホームでV・ファーレン長崎戦／鬼木監督「一番はメンタリティー、アグレッシブに」連戦3戦目へ／【栄光の軌跡・名選手編㊾】長崎も警戒する快速ドリブラー、ヴェルディ武者修行から帰還した松村優太（2026年10月17日）</title>
       <description>鹿島アントラーズ デイリー第86回。本日10月17日土曜15時、ホームのメルカリスタジアムで明治安田J1リーグ第10節・V・ファーレン長崎戦。ガンバ戦、アジア・ハノイ戦に続く連戦3戦目で、鬼木達監督は「一番はメンタリティー」「アグレッシブにどれだけいけるか」と強調した。長崎の地元メディアも「右の松村、中央のレオ」と鹿島の個を警戒。栄光の軌跡・名選手編㊾は、静岡学園出身で2020年加入、東京ヴェルディへの期限付き移籍を経て復帰した快速ドリブラー・松村優太を紹介する。</description>
