@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Wed, 21 Oct 2026 00:06:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 15:28:43 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#91 悔しいドロー…アウェー京都戦2対2、土壇場で勝ち点2こぼす／松村の90分超え逆転弾も新井に2発/【栄光の軌跡・名選手編54】黎明期を支えた伝説のストライカー・長谷川祥之（2026年10月22日）</title>
+      <description>鹿島アントラーズ デイリー第91回。昨夜10月21日、アウェーのサンガスタジアムで京都サンガF.C.と2対2のドロー、連勝は2でストップ。前半16分に新井晴樹に先制され、後半に追いつき、90分を5分過ぎに松村優太が逆転弾。しかし直後の90+7分に再び新井に決められ追いつかれた。勝ち点は20に。得点王独走のレオ・セアラはこの日ノーゴール。栄光の軌跡・名選手編54は、クラブ黎明期を支え、リーグ通算89得点というクラブ最多記録を長く保持してきた伝説のストライカー・長谷川祥之を紹介。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-10-22.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-10-22.mp3" length="3729030" type="audio/mpeg"/>
+      <pubDate>Wed, 21 Oct 2026 15:28:43 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-10-22.jpg"/>
+    </item>
     <item>
       <title>#90 今夜アウェー京都戦、連勝を“3”へ／得点王独走レオ・セアラは今夜も決めるか／【栄光の軌跡・名選手編53】大ケガを乗り越えた生え抜き左利きCB・町田浩樹（2026年10月21日）</title>
       <description>鹿島アントラーズ デイリー第90回。今夜10月21日午後7時、アウェーのサンガスタジアムで京都サンガF.C.戦。試合当日の今日は今夜の見どころに特化し、得点ランキングを12点で独走・直近3戦連発のレオ・セアラが敵地でも決めるかに注目。鹿島はリーグ2連勝・勝ち点19の6位、勝てば連勝を3に伸ばし上位争いへ視界が開ける一戦。栄光の軌跡・名選手編53は、小4で鹿島アカデミー入りし大ケガを乗り越え主力に定着、2022年にベルギーへ渡った生え抜き左利きCB・町田浩樹を紹介。</description>
