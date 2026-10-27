@@ -13,7 +13,7 @@
       <link>https://kenmae-arch.github.io/podcast_automation</link>
     </image>
     <language>ja</language>
-    <lastBuildDate>Mon, 26 Oct 2026 15:12:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 00:36:32 +0000</lastBuildDate>
     <itunes:author>Antlers Daily Podcast</itunes:author>
     <itunes:category text="Sports"/>
     <itunes:image href="https://kenmae-arch.github.io/podcast_automation/cover.jpg"/>
@@ -22,6 +22,14 @@
       <itunes:name>Antlers Daily Podcast</itunes:name>
       <itunes:email>k-maekawa-9jt@eagle.sophia.ac.jp</itunes:email>
     </itunes:owner>
+    <item>
+      <title>#96 いよいよ明日！ACLエリート浦項戦前夜、韓国勢との死闘の記憶を胸に／【栄光の軌跡・名選手編59】3番手から2018年ACL初制覇を戦い抜いた清水育ちのCB・犬飼智也（2026年10月27日）</title>
+      <description>鹿島アントラーズ デイリー第96回。明日10月28日水曜19時、カシマサッカースタジアムでACLエリート リーグステージ第3節、韓国の浦項スティーラーズ戦。開幕2連勝で東地区首位の鹿島、前夜の今日は少し角度を変え、韓国勢との戦いの歴史を振り返ります。2018年の準決勝では水原三星と2戦合計6対5の死闘を制し、クラブ初のアジア決勝進出。リーグ2戦未勝利、レオ・セアラとキム・テヒョンが負傷というなかで総力戦に挑みます。栄光の軌跡・名選手編59は、2018年に3番手のセンターバックとして加入しながらACL10試合に出場し、公式戦は全試合メンバー入りで初制覇を戦い抜いた清水育ちの犬飼智也（現・柏レイソル）を紹介。</description>
+      <guid isPermaLink="false">https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-10-27_2.mp3</guid>
+      <enclosure url="https://kenmae-arch.github.io/podcast_automation/audio/episode_2026-10-27_2.mp3" length="3935129" type="audio/mpeg"/>
+      <pubDate>Tue, 27 Oct 2026 00:36:32 +0000</pubDate>
+      <itunes:image href="https://kenmae-arch.github.io/podcast_automation/images/episode_2026-10-27_2.jpg"/>
+    </item>
     <item>
       <title>#96 いよいよ明日！ACLエリート浦項戦前夜、韓国勢との死闘の記憶を胸に／【栄光の軌跡・名選手編59】2018年ACL初制覇を最終ラインで支えた清水育ちのCB・犬飼智也（2026年10月27日）</title>
       <description>鹿島アントラーズ デイリー第96回。明日10月28日水曜夜7時、カシマサッカースタジアムでACLエリート リーグステージ第3節、韓国の浦項スティーラーズ戦。開幕2連勝で東地区首位の鹿島、前夜の今日は少し角度を変え、韓国勢との戦いの歴史を振り返ります。2018年の準決勝では水原三星と2戦合計6対5の死闘を制し、クラブ初のアジア決勝進出。リーグ2戦未勝利・ケガ人続出のなか、総力戦で勝ち点3を狙います。栄光の軌跡・名選手編59は、2018年ACL初制覇を最終ラインで支えた清水育ちのCB・犬飼智也を紹介。</description>
